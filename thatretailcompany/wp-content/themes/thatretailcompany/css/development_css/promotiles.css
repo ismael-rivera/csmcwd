@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*.xoxo {
+	width:300px;
+	margin-right: auto;
+	margin-left: auto;
+	}			
+*/					
+	
+/*SIDEBAR STATIC PROMO TILES*/
+	
+.sidebar-right{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	display: table;
+	}	
+.sidebar-right .promotiles, .grid_table .promotiles{
+	width: 290px;
+	border: 1px solid #dedede;
+	height: auto;
+	padding: 4px;
+	margin-left: 26px;
+	}
+.grid_table.promotiles{
+	width: 280px;
+	}
+.contact_innerbox{
+	width:auto;
+	height: 100%;
+	border: 5px solid #fff;
+	background: #f7f7f7;
+	padding: 10px 6px 10px 15px !important;
+}	
+.promotiles_inner, .innerbox{
+	width:100%;
+	min-width: 257px;
+	height: 100%;
+	display: table-cell;
+	border: 5px solid #fff;
+	background: #f7f7f7;
+	padding: 10px 6px 10px 15px !important;
+}
+.promo_list{
+	width: 224px;
+	height: auto;
+	float: right;
+	margin-left: auto;
+	padding-bottom: 20px !important;
+	display: table-cell;
+}	
+.promo_list li{
+	float: right;
+	color: #4c6680;
+	list-style: url(../../../uploads/TRC_Services_bullet.png) outside;
+	font: 12px/16px Arial, Helvetica, sans-serif;
+	padding-bottom: 6px;
+	}
+.promo_tile_button{
+	font: 12px Conv_Play-Bold_0;
+	text-shadow: 1px 1px white, -1px -1px #444*/
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari, Chrome */
+	border-radius: 4px; /* CSS3 */
+	background: url(../images/promotile_button_bgs.png) repeat-x 0px 0px;
+	display: block;
+	width: 100px;
+	height: 20px;
+	margin-top: 0px !important;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	padding-top: 4px;
+	position: relative;
+	}
+.grid_table	.promo_tile_button{
+	margin-bottom: 10px;
+	}		
+.promo_tile_button:hover{
+	color: #FFF;
+	background: url(../images/promotile_button_bgs.png) repeat-x 0px -26px;
+	}
+.promo_tile_content{
+	width: 130px;
+	height: 100%;
+	float: left;
+	}
+.sidebar-right .promo_tile_icon, .sidebar-right .promo_tile_icon img, .grid_table .promo_tile_icon, .grid_table .promo_tile_icon img{
+	width: 121px;
+	height: 110px;
+	float: right;
+	margin-right:-8px;
+	}		
+.grid_table .promo_tile_icon img{
+	margin-right: 0px;
+	}				
+.promotiles_outer, .outerbox{
+	border: 1px solid #dedede;
+	}
+
+.promo_tile_content_no_icon{
+	width: 100% !important;
+	height: 100%;
+	float: left;
+	}
+.promo_tile_content_no_icon ul{	
+
+}
+	
+/*EXTRA CLASSES FOR THE HOMEPAGE PROMO TILES*/	

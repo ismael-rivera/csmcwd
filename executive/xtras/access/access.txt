@@ -1,0 +1,7 @@
+Wordpress Admin:
+Username: admin123
+Password: pass123
+
+DOD:
+email: speggodesig@gmail.com
+senha: hwBaNAc3C5JaD

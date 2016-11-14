@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Inovado Documentation</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div id="wrap" class="container clearfix">
+	
+		<div id="header" class="clearfix">
+	
+			<div id="logo" class="four columns"><img src="images/logo.png" alt="logo"></div>
+			
+			<div id="theme" class="twelve columns"><h3>Inovado</h3><h4>Documentation V.1.0.1</h4></div>
+		
+		</div>
+		
+		<div class="sixteen columns">
+			
+			<div id="welcome" class="info box">
+			<h2>Thank You for Purchasing One of my Premium Themes.</h2>
+			<p>First of all a huge <strong>THANK YOU</strong> for purchasing my WordPress Theme at Themeforest. If you have any questions that are beyond the scope of this help file, please join our Support Forums. If you’d like to start a new thread over there I’ll get any issues you’re experiencing sorted out. You can also follow me on Themeforest to keep track of all my theme updates and future themes. Thanks so much!</p></div>
+			
+			<div class="row buttons">
+			<div class="four columns alpha"><a href="http://mintithemes.com/forums/" class="button" target="_blank">Support Forum</a></div>
+			<div class="four columns"><a href="http://themeforest.net/user/minti/portfolio?ref=minti" class="button" target="_blank">Other Themes</a></div>
+			<div class="four columns"><a href="http://themeforest.net/user/minti/follow/" class="button" target="_blank">Follow on Envato</a></div>
+			<div class="four columns omega"><a href="https://www.youtube.com/user/mintithemes" class="button" target="_blank">YouTube Screencasts</a></div>
+			</div>
+			
+			<div id="nav" class="clearfix">
+				<h2 class="separator">Table of Contents</h2>
+
+					<div class="one-third alpha column">
+						<ol>
+							<li><a href="#first-steps">01. First Steps</a></li>
+							<li><a href="#installation">02. Installation of WordPress</a></li>
+							<li><a href="#installation-wp">03. Theme Installation WordPress</a></li>
+							<li><a href="#installation-ftp">04. Theme Installation FTP</a></li>
+							<li><a href="#install-plugins">05. Install & Setup Plugins</a></li>
+							<li><a href="#import-demo">06. Importing Demo Data (Optional)</a></li>
+							<li><a href="#theme-options">07. Theme Options</a></li>
+							<li><a href="#setting-pages">08. Setting up new Pages</a></li>
+						</ol>
+					</div>
+					
+					
+					<div class="one-third column">
+						<ol>
+							<li><a href="#predefined-pages">09. Predefined Page Layouts</a></li>
+							<li><a href="#setup-blog">10. Setting up Blog Page & Home Page</a></li>
+							<li><a href="#postformats">11. Using different Post Formats</a></li>
+							<li><a href="#menu-reading">12. Setting up Menu</a></li>
+							<li><a href="#setup-portfolio">13. Setting up the Portfolio</a></li>
+							<li><a href="#custom-sidebars">14. Custom Sidebars</a><li>
+							<li><a href="#slider">15. Setting up Sliders</a></li>
+							<li><a href="#customwidgets">16. Custom Widgets</a></li>
+						</ol>
+					</div>
+					
+					<div class="one-third omega column">
+						<ol>
+							
+							<li><a href="#shortcodes">17. Shortcodes</a></li>
+							<li><a href="#translation">18. Translation</a></li>
+							<li><a href="#css-javascript">19. CSS & Javascript</a></li>
+							<li><a href="#credits">20. Credits</a></li>
+						</ol>
+					</div>					
+			</div>
+			
+			<h2 id="first-steps" class="separator">01. First Steps</h2>
+    		
+    		<p>Before you start playing around with this Premium Theme, let's check what you've downloaded so far:</p>
+		
+			<ul>
+				<li><strong>Documentation</strong> - <em>That's where you</em></li>
+				<li><strong>License</strong> - <em>Some info's about theme licencing terms</em></li>
+				<li><strong>PSD</strong> - <em>All Photoshop (.psd) files</em></li>
+				<li><strong>Dummy Content</strong> - <em>Placholder content for testing the theme</em></li>
+				<li><strong>SampleData</strong> - <em>Import Data to get the exact Site as the Preview Page</em></li>
+				<li><strong>Upload</strong> - <em>This is where all Theme files are (zipped & unzipped format)</em></li>
+			</ul>
+			
+			<h2 id="installation" class="separator">02. Installation of WordPress</h2>
+			
+			<p>First of all if you are all new to WordPress, I would recommend to learn a little bit about it before you get started. Here are some nice Resources on how to get started with WordPress.</p>
+
+		<ul>
+			<li><a href="http://codex.wordpress.org/First_Steps_With_WordPress" title="First Steps With WordPress">First Steps With WordPress</a></li>
+			<li><a href="http://codex.wordpress.org/FAQ_New_To_WordPress" title="FAQ New To WordPress">FAQ New To WordPress</a></li>
+			<li><a href="http://wp.tutsplus.com/sessions/wp101-basix-training/" title="WP101 Basix Training">WP101 Basix Training</a></li>
+		</ul>
+
+    		<p><strong>Here's also a small screencast of the installation process</strong></p>
+    		
+    		<iframe src="http://player.vimeo.com/video/17147778?title=0&amp;byline=0&amp;portrait=0&amp;color=D0D9E0" width="940" height="528" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    		
+    		
+			
+			<h2 id="installation-wp" class="separator">03. Theme Installation WordPress</h2>
+    		
+    		<p>The first option how to install this Theme would be to directly upload the inovado.zip file via WordPress Theme Uploader.</p>
+    		
+    		<img class="right" src="images/wpinstall.png">
+        
+        <ul>
+        	<li>Log into your WordPress backend</li>
+   			<li>Navigate to <strong>Appearance > Themes</strong></li>
+   			<li>Click <strong>Install Themes</strong></li>
+   			<li>Click <strong>Upload</strong></li>
+   			<li>Now you just need to find the "Inovado.zip" in the Upload folder and hit <strong>Install now</strong>.</li>
+  		</ul>
+  		
+  		<p>If you are experiencing any issues during the installation I would recommend to check out this <a href="http://support.envato.com/index.php?/Knowledgebase/Article/View/269/0/my-wordpress-theme-isnt-working-what-should-i-do" target="_blank">Screencast by Envato</a></p>
+  		
+  		<div class="clear"></div>
+  		
+  		<p><strong>Here's also a small screencast of the Theme Installation process</strong></p>
+  		
+  		<iframe width="560" height="315" src="http://www.youtube.com/embed/TEoT3ZDspTc" frameborder="0" allowfullscreen></iframe>
+  		
+  		
+    		
+    		<h2 id="installation-ftp" class="separator">04. Theme Installation FTP</h2>
+    		
+    		<p>The second option how to install this Theme would be the upload via <strong>FTP manager</strong>. It really dosen't matter which of the two ways you choose, just choose the one you feel more comfortable with.</p>
+    		<ul>
+    		  <li>Login to your FTP account and navigate to your WordPress Installation directory</li>
+    		  <li>Navigate to the folder <code>/wp-content/themes</code></li>
+    		  <li>Upload the &quot;Inovado&quot; folder (not the .zip-file). This is the folder located inside the "Upload" folder in the zip-file you've downloaded from Themeforest.</li>
+    		  <li>Now log into your WordPress backend</li>
+    		  <li>Navigate to <strong>Appearance > Themes</strong></li>
+    		  <li>Find the Theme and click <strong>Activate</strong></li>
+   		  </ul>
+    		<p>If you are experiencing any issues during the installation I would recommend to check out this <a href="http://support.envato.com/index.php?/Knowledgebase/Article/View/269/0/my-wordpress-theme-isnt-working-what-should-i-do" target="_blank">Screencast by Envato</a></p>
+        
+        
+        
+        <h2 id="install-plugins" class="separator">05. Install & Setup Plugins</h2>
+        
+        <p>So at this stage you have probably noticed a warning, asking you to install recommended plugins. This is needed to get the Slider functionality, Contact Forms, Order Post Formats and use the Blog Post Formats. Installing that is very simple, you just need to click <strong>Begin installing plugins</strong> and you will be redirected to the plugin installation page where you can install any Plugin you want and need.</p>
+		
+		
+		<h2 id="import-demo" class="separator">06. Importing Demo Data (Optional)</h2>
+		
+		<p>This Theme includes a Demo Data .xml file which allows you to upload some dummy content to your site to help you get started with the Theme and get to know the functionality. Please note, that the .xml file doesn't include images or the slider data. See the slider section & screencast of this documentation on how to set them up.</p>
+		
+		<ul>
+			<li>Log into your WordPress backend</li>
+			<li>Navigate to <strong>Tools > Import</strong></li>
+			<li>Click on "WordPress". If you haven't imported anything yet, you will need to install "Importer" plugin.</li>
+			<li>Select the .xml file in the SampleData folder in the zip-file you've downloaded from Themeforest.</li>
+			<li>Now make sure to Select the Menu in <strong>Appearance > Menus</strong> and set up "Home" as front page and "Blog" as posts page under <strong>Settings > Reading</strong>.</li>
+		</ul>
+		
+		<p class="info">Be aware that downloading Dummy Content may take a while, depending on the speed of your internet connection!</p>
+		
+		<h2 id="theme-options" class="separator">07. Theme Options</h2>
+		
+		<p>If you want to change the general Options of the Theme, go to your WordPress Admin Area to<strong> Appearance > Theme Option</strong>s. Here you have a tabbed Navigation where you can change a lot of Options of your new Theme (General, Slider, Styling, Social Media Options)</p>
+		
+		<p><strong>Notice:</strong> Before adjusting the different settings, you should first click on the <strong>Save Options</strong> button, to insert all default data to the database and make sure everything looks good.</p>
+		
+		
+		<h2 id="setting-pages" class="separator">08. Setting up new Pages</h2>
+		
+		<p>Your new Theme comes with some awesome custom page layouts. These layouts can be used on any page you create to give them some special functionalities. To set up a custom page layout go to your WordPress Admin Area and navigate to<strong> Pages > Add New</strong>. Now you can choose any template you like from the "Page Attributes" on the right side.</p>
+		
+		<ul>
+
+<li><strong>Default Template</strong><br />
+The default page Template with a page sidebar on the right side.<br /><br /></li>
+
+<li><strong>Page: Full Width</strong><br />
+A Full-Width template without a sidebar.<br /><br /></li>
+
+<li><strong>Page: Side Navigation</strong><br />
+This is the Side Navigation page template. When making a side navigation page, make sure to set the Parent to Side Navigation, and also set each child Page with that Template.<br /><br /></li>
+
+<li><strong>Page: Sidebar Left</strong><br />
+The default page Template with a page sidebar on the left side.<br /><br /></li>
+
+<li><strong>Portfolio: 1 Column</strong><br />
+The Portfolio page layout with 1 Column for your Items. New portfolio Items can be added in <strong>Portfolio > Add New</strong>.<br /><br /></li>
+
+<li><strong>Portfolio: 2 Columns</strong><br />
+The Portfolio page layout with 2 Columns for your Items. New portfolio Items can be added in <strong>Portfolio > Add New</strong>.<br /><br /></li>
+
+<li><strong>Portfolio: 3 Columns</strong><br />
+The Portfolio page layout with 3 Columns for your Items. New portfolio Items can be added in <strong>Portfolio > Add New</strong>.<br /><br /></li>
+
+<li><strong>Portfolio: 4 Columns</strong><br />
+The Portfolio page layout with 4 Columns for your Items. New portfolio Items can be added in <strong>Portfolio > Add New</strong>.<br /><br /></li>
+
+</ul>
+
+<img src="images/page.png" alt="page" width="940" height="1168">
+
+<h2 id="predefined-pages" class="separator">09. Predefined Page Layouts</h2>
+
+<p>All Pages on the Demo Page are created through a combination of shortcodes.</p> To use one of our pre-designed layouts, just copy and paste our demo code into the Editor of your page. Make sure to paste them in "HTML" Mode (not Visual). Also choose the "Full-Width" Template in the "Page Attributes".
+
+<div class="hr2"></div>
+<h3>Page: About Us</h3>
+<textarea class="codecopy">[two_third][separator headline="h3" title="Who We Are?"]
+
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+
+Malesuada tortor, nec scelerisque lorem mattis. Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum et rutrum. [/two_third]
+[one_third_last][separator headline="h3" title="Our Skills"]
+
+[skill percentage="90" title="WordPress Development 90%"]
+
+[skill percentage="45" title="UX Design 45%"]
+
+[skill percentage="70" title="SEO 70%"][/one_third_last]
+
+[separator headline="h3" title="Meet the Team"]
+
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+
+[one_third][member name="John Doe" role="CEO & Developer" img="http://inovado.mintithemes.com/wp-content/uploads/2013/01/photodune-653398-confident-mature-business-man-xs.jpg" twitter="http://twitter.com" facebook="http://facebook.com" skype="http://skype.com" google="http://google.de" linkedin="http://linkedin.com" mail="hellominti@gmail.com"]Sed at odio ut arcu fringilla dictum magna nisi.Aliquam at erat in purus velit vel dolo dictum magna nisi.[/member][/one_third]
+
+[one_third][member name="Jane Doe" role="Web Designer" img="http://inovado.mintithemes.com/wp-content/uploads/2013/01/photodune-659417-cute-female-executive-smiling-xs.jpg" twitter="http://twitter.com" facebook="http://facebook.com" skype="http://skype.com" google="http://google.de" linkedin="http://linkedin.com" mail="hellominti@gmail.com"]Sed at odio ut arcu fringilla dictum magna nisi.Aliquam at erat in purus velit vel dolo dictum magna nisi.[/member][/one_third]
+
+[one_third_last][member name="John Smith" role="SEO Expert" img="http://inovado.mintithemes.com/wp-content/uploads/2013/01/photodune-659275-happy-business-man-xs.jpg" twitter="http://twitter.com" facebook="http://facebook.com" skype="http://skype.com" google="http://google.de" linkedin="http://linkedin.com" mail="hellominti@gmail.com"]Sed at odio ut arcu fringilla dictum magna nisi.Aliquam at erat in purus velit vel dolo dictum magna nisi.[/member][/one_third_last]</textarea>
+		
+<div class="hr2"></div>
+<h3>Page: Services</h3>
+<textarea class="codecopy">[box][googlefont font="Sanchez" size="22px"]Hey there! We are NOVAX and we hand-craft creative Web Solutions with Solid Strategies, User-Centred Designs &amp; Powerful Technologies.[/googlefont][/box][gap height="20"]
+
+[two_third][separator headline="h3" title="Methodology"]
+
+[dropcap style="box"]A[/dropcap]sunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+
+Malesuada tortor, nec scelerisque lorem mattis. Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum et rutrum.[/two_third]
+[one_third_last][separator headline="h3" title="Why Choose Us?"]
+
+[list]
+[list_item icon="ok"] Quick and convenient Localization Support[/list_item]
+[list_item icon="ok"] Compatible with the latest WordPress[/list_item]
+[list_item icon="ok"] Flexible, Responsive Layout [/list_item]
+[list_item icon="ok"] Compatible with Major Browsers [/list_item]
+[list_item icon="ok"] Attuned to Smartphones and Tablet PCs[/list_item]
+[list_item icon="ok"] Tons of useful Shortcodes at your fingertips[/list_item]
+[list_item icon="ok"] Easy to Customize[/list_item]
+
+[/list]
+
+[/one_third_last]
+
+[gap height="10"]
+
+[separator headline="h3" title="Our Services"]
+
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[gap height="20"]
+
+[one_third][iconbox icon="new" title="Concept"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third][iconbox icon="mac" title="Design"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third_last][iconbox icon="monitor" title="Technology"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third_last]
+[gap height="15"]
+[one_third][iconbox icon="podcast" title="User Experience"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third][iconbox icon="search" title="SEO"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third_last][iconbox icon="preferences" title="Hosting"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third_last]
+[gap height="20"]
+[alert type="success"]If you don't find the services you are looking for, please contact us.[/alert]
+[gap height="30"]</textarea>
+
+<div class="hr2"></div>
+<h3>Page: Pricing</h3>
+<textarea class="codecopy">[box][googlefont font="Sanchez" size="22px"]Join today and discover how it can transform your WordPress Installation.
+Trusted by over 200,000 business users.[/googlefont][/box][gap height="20"]
+
+[separator headline="h3" title="We have the right Pricing for you!"]
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[gap height="20"]
+
+[pricing-table col="4"]
+[plan name="Starter Edition" link="http://www.google.de" linkname="Sign Up" price="0€" per="per year" color="#83b732" featured="100% Free"]
+<ul>
+	<li><strong>Free</strong> Setup</li>
+	<li><strong>10GB</strong> Storage</li>
+	<li><strong>100GB</strong> Bandwith</li>
+	<li><strong>5</strong> Products</li>
+	<li><strong>Basic</strong> Stats</li>
+	<li><strong>Basic</strong> Customization</li>
+</ul>
+[/plan]
+
+[plan name="Gold Edition" link="http://www.google.de" linkname="Sign Up" price="19$" per="per month"]
+<ul>
+	<li><strong>Free</strong> Setup</li>
+	<li><strong>20GB</strong> Storage</li>
+	<li><strong>200GB</strong> Bandwith</li>
+	<li><strong>25</strong> Products</li>
+	<li><strong>Basic</strong> Stats</li>
+	<li><strong>Basic</strong> Customization</li>
+</ul>
+[/plan]
+
+[plan name="Platinum Edition" link="http://www.google.de" linkname="Sign Up" price="29$" per="per month" color="#2da0ce" featured="BEST PRICE"]
+<ul>
+	<li><strong>Free</strong> Setup</li>
+	<li><strong>40GB</strong> Storage</li>
+	<li><strong>500GB</strong> Bandwith</li>
+	<li><strong>100</strong> Products</li>
+	<li><strong>Complex</strong> Stats</li>
+	<li><strong>Complex</strong> Customization</li>
+</ul>
+[/plan]
+
+[plan name="Diamond Edition" link="http://www.google.de" linkname="Sign Up" price="49$" per="month"]
+<ul>
+	<li><strong>Free</strong> Setup</li>
+	<li><strong>100GB</strong> Storage</li>
+	<li><strong>1000GB</strong> Bandwith</li>
+	<li><strong>Unlimited</strong> Products</li>
+	<li><strong>Complex</strong> Stats</li>
+	<li><strong>Complex</strong> Customization</li>
+</ul>
+[/plan]
+[/pricing-table]
+
+&nbsp;
+
+[separator headline="h3" title="Buy this theme now on Themeforest"]
+
+[one_third]
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/one_third]
+[one_third]
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/one_third]
+[one_third_last]
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/one_third_last]
+
+[toggle title="Questions about the Pricing?" icon="question-sign"]Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+[gap height="1"][button link="http://www.google.com" size="small" target="_blank" icon="user" style="light" lightbox="true"]Get In Touch[/button][/toggle]</textarea>
+
+<div class="hr2"></div>
+<h3>Page: F.A.Q.</h3>
+<textarea class="codecopy">[separator headline="h3" title="Got Questions? We’ve Got Answers!"]
+
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+
+[hr style="3"]
+
+[two_third]
+[toggle title="What services do you provide?" open="true" icon="question-sign"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/toggle]
+[toggle title="How long will it take?" open="false" icon="question-sign"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/toggle]
+[toggle title="How much will it cost?" open="false" icon="question-sign"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/toggle]
+[toggle title="Will it work in all popular web browsers?" open="false" icon="question-sign"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/toggle]
+[toggle title="What aftersales support do you offer?" open="false" icon="question-sign"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/toggle]
+[/two_third]
+[one_third_last]<h3>[icon icon="unread"]One More Question?</h3>
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+
+[button link="http://www.google.de" size="normal" target="_blank" color="green"]Get in Touch[/button]
+[/one_third_last]</textarea>
+
+<div class="hr2"></div>
+<h3>Page: Jobs</h3>
+<textarea class="codecopy">[two_third][separator headline="h3" title="Join our Team and change the World."]
+
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.
+
+[accordion open="1"]
+[accordion-item title="User Experience Designer"]Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+
+[list]
+[list_item icon="plus"] Graphic Design[/list_item]
+[list_item icon="plus"] Web Design[/list_item]
+[list_item icon="plus"] Email Marketing[/list_item]
+[list_item icon="plus"] Social Media Campains[/list_item]
+[/list]
+[gap height="20"]
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="small" target="_blank" color="blue"]Apply via LinkedIn[/button]
+[/accordion-item]
+[accordion-item title="Project Manager"]Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+
+[list]
+[list_item icon="plus"] Graphic Design[/list_item]
+[list_item icon="plus"] Web Design[/list_item]
+[list_item icon="plus"] Email Marketing[/list_item]
+[list_item icon="plus"] Social Media Campains[/list_item]
+[/list]
+[gap height="20"]
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="small" target="_blank" color="blue"]Apply via LinkedIn[/button][/accordion-item]
+[accordion-item title="Senior Art Director"]Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+
+[list]
+[list_item icon="plus"] Graphic Design[/list_item]
+[list_item icon="plus"] Web Design[/list_item]
+[list_item icon="plus"] Email Marketing[/list_item]
+[list_item icon="plus"] Social Media Campains[/list_item]
+[/list]
+[gap height="20"]
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="small" target="_blank" color="blue"]Apply via LinkedIn[/button][/accordion-item]
+[accordion-item title="Web Developer"]Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet nec, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+
+[list]
+[list_item icon="plus"] Graphic Design[/list_item]
+[list_item icon="plus"] Web Design[/list_item]
+[list_item icon="plus"] Email Marketing[/list_item]
+[list_item icon="plus"] Social Media Campains[/list_item]
+[/list]
+[gap height="20"]
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="small" target="_blank" color="blue"]Apply via LinkedIn[/button][/accordion-item]
+[/accordion]
+
+[/two_third]
+[one_third_last]
+
+[map id="map2" z="14" h="200" style="full" address="Miami" marker="false" hidecontrols="true" markerimage="http://inovado.mintithemes.com/wp-content/uploads/2013/01/office.png"]
+[gap height="30"]
+
+[separator headline="h3" title="Why work with us?"]
+
+Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. [gap height="10"]
+
+[separator headline="h3" title="Other Skills?"]
+
+We are always looking for talented and passionated people.
+
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="normal" target="_blank" color="green"]Get in Touch![/button]
+
+[/one_third_last]</textarea>
+
+<div class="hr2"></div>
+<h3>Page: Contact</h3>
+<textarea class="codecopy">[map w="600" h="300" style="full" z="16" marker="yes" infowindow="100 Mainstreet Blvd. (South) 44th Floor, Highland Tower Miami, Florida 33148" infowindowdefault="no" hidecontrols="false" address="Miami" markerimage="http://localhost:8888/kickstart2/wp-content/uploads/2012/12/office.png"]
+
+[gap height="40"]
+
+[two_third][separator headline="h3" title="Contact form"]
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores etea.
+[contact-form-7 id="327" title="Contact form 1"][/two_third]
+[one_third_last][separator headline="h3" title="Headquater USA"]
+100 Mainstreet Blvd. (South) 44th Floor, Highland Tower Miami, Florida 33148
+
+(305) 555-4446
+(305) 555-4447
+
+<a title="johndoe@yourdomain.com" href="mailto:johndoe@yourdomain.com">johndoe@yourdomain.com</a>
+<a title="www.yourdomain.com" href="http://www.yourdomain.com" target="_blank">www.yourdomain.com</a>
+[gap height="20"]
+[separator headline="h3" title="Business Hours"]
+[mini-icon icon="time"] <strong>Weekday:</strong> 8am to 6pm
+[mini-icon icon="time"] <strong>Sunday:</strong> closed
+
+[gap height="20"]
+[separator headline="h3" title="Social Network"]
+[social icon="facebook"][social icon="twitter"][social icon="googleplus"][social icon="linkedin"]
+[clear]
+[/one_third_last]</textarea>
+
+<div class="hr2"></div>
+<h3>Page: Contact Alternative</h3>
+<textarea class="codecopy">[one_half]
+
+[separator headline="h3" title="Contact Informations"]
+
+[map w="600" h="400" style="full" z="16" marker="yes" infowindow="100 Mainstreet Blvd. (South) 44th Floor, Highland Tower Miami, Florida 33148" infowindowdefault="no" hidecontrols="false" address="Miami" markerimage="http://localhost:8888/kickstart2/wp-content/uploads/2012/12/office.png"]
+
+[gap height="30"]
+
+[separator headline="h3" title="Address"]
+
+100 Mainstreet Blvd. (South) 44th Floor, Highland Tower Miami, Florida 33148
+
+(305) 555-4446
+(305) 555-4447
+
+<a title="johndoe@yourdomain.com" href="mailto:johndoe@yourdomain.com">johndoe@yourdomain.com</a>
+<a title="www.yourdomain.com" href="http://www.yourdomain.com" target="_blank">www.yourdomain.com</a>
+
+[/one_half]
+
+[one_half_last]
+
+[separator headline="h3" title="Send us a Message"]
+
+[box][contact-form-7 id="327" title="Contact form 1"][/box]
+
+[/one_half_last]
+
+[hr style="3" margin="40px 0px 40px 0px"]
+
+This only shows one of thousands of possible layouts. Just play around with some of our Shortcodes and create stunning pages in no-time. Of course we provide all of our demo pages for copy &amp; paste into your new Theme.</textarea>
+
+<div class="hr2"></div>
+<h3>Home: Version 1</h3>
+<textarea class="codecopy">[one_third][iconbox icon="preferences" title="Incredibly Flexible"]Our System is inredible flexible and lets you create stunning WordPress Themes without any coding knowledge out of the box. Easily customizable for everyone.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third]
+[one_third][iconbox icon="mac" title="Ultra Responsive"]This Theme has a fully responsive layout. That means it will fit your large desktop screen all the way down to your iPhone and of course any Tablet in between.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third]
+[one_third_last][iconbox icon="search" title="Great SEO Base"]FlexFit has a great SEO Base built in! It is build with web standards and SEO best practices in mind and perfectly prepared to get high rankings on search engines.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third_last]
+
+[gap height="20"]
+
+[portfolio projects="4" title="Recent Projects" show_title="yes" columns="4"]
+
+[gap height="20"]
+
+[one_half][bloglist posts="2" show_title="yes" title="Recent News"][/one_half]
+[one_half_last][separator headline="h3" title="Why Choose Us?"][accordion open="1"]
+[accordion-item title="Fully Translation Ready" icon="music"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/accordion-item]
+[accordion-item title="Awesome &amp; Clean Design" icon="star"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/accordion-item]
+[accordion-item title="Fully Customizable Layout"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/accordion-item]
+[/accordion][/one_half_last]
+
+[callout title="Try Inovado for only 45$ bucks!" button="Get Started &amp; Buy this Theme!" link="http://themeforest.net/user/minti/portfolio?ref=minti" buttoncolor="green" target="_blank" buttonmargin="4px 0 0 0;"]Unlimited home page layouts, let your creativity out of![/callout]
+
+[gap height="40"]
+[separator headline="h3" title="Some of Our Clients"]
+[one_fifth][responsive][tooltip text="Add Tooltips everywhere! Nice, huh?"]<img class="aligncenter size-full wp-image-96" alt="logo_1" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo_1.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-medium wp-image-97" alt="logo2" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo2.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Quisque ligulas ipsum"]<img class="aligncenter size-medium wp-image-98" alt="logo3" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo3.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Class aptent taciti"]<img class="aligncenter size-medium wp-image-99" alt="logo4" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo5.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth_last][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-full wp-image-102" alt="logo7" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo7.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth_last]</textarea>
+
+<div class="hr2"></div>
+<h3>Home: Version 2</h3>
+<textarea class="codecopy">[box][googlefont font="Sanchez" size="22px"]<div style="text-align: center !important;">Hey there! We are Inovado and we hand-craft creative Web Solutions with Solid Strategies, User-Centred Designs &amp; Powerful Technologies.</div>[/googlefont][/box][gap height="20"]
+[hr style="4" margin="0px 0 30px 0"]
+
+[one_third][iconbox icon="preferences" title="Incredibly Flexible"]Our System is inredible flexible and lets you create stunning WordPress Themes without any coding knowledge out of the box. Easily customizable for everyone.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third]
+[one_third][iconbox icon="mac" title="Ultra Responsive"]This Theme has a fully responsive layout. That means it will fit your large desktop screen all the way down to your iPhone and of course any Tablet in between.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third]
+[one_third_last][iconbox icon="search" title="Great SEO Base"]FlexFit has a great SEO Base built in! It is build with web standards and SEO best practices in mind and perfectly prepared to get high rankings on search engines.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third_last]
+
+[gap height="20"]
+
+[blog posts="4" title="Recent News" show_title="yes"]
+
+[gap height="20"]
+
+[one_half][separator headline="h3" title="Why Choose Us?"][accordion open="1"][accordion-item title="Fully Translation Ready" icon="music"]Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit purus, ullamcorper vel luctus vitae, venenatis eu odio.[/accordion-item]
+[accordion-item title="Awesome &amp; Clean Design" icon="star"]Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit purus, ullamcorper vel luctus vitae, venenatis eu odio.[/accordion-item]
+[accordion-item title="Fully Customizable Layout"]Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit purus, ullamcorper vel luctus vitae, venenatis eu odio.[/accordion-item]
+[/accordion][/one_half]
+[one_half_last][separator headline="h3" title="What Our Clients Say"][testimonial author="John Doe, Google Inc."]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/testimonial][testimonial author="Jane Miller, Company Inc."]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.[/testimonial][/one_half_last]
+
+[separator headline="h3" title="Some of Our Clients"]
+[one_fifth][responsive][tooltip text="Add Tooltips everywhere! Nice, huh?"]<img class="aligncenter size-full wp-image-96" alt="logo_1" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo_1.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-medium wp-image-97" alt="logo2" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo2.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Quisque ligulas ipsum"]<img class="aligncenter size-medium wp-image-98" alt="logo3" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo3.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Class aptent taciti"]<img class="aligncenter size-medium wp-image-99" alt="logo4" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo5.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth_last][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-full wp-image-102" alt="logo7" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo7.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth_last]</textarea>
+
+<div class="hr2"></div>
+<h3>Home: Version 3</h3>
+<textarea class="codecopy">[hr style="4" margin="0 0 20px 0"]
+
+[one_third][teaser]
+<h3>Incredibly Flexible</h3>
+Our System is inredible flexible and lets you create stunning WordPress Themes without any coding knowledge out of the box. Easily customizable for everyone. 
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="small" color="white"]Take a Tour[/button][/teaser][/one_third]
+[one_third][teaser]
+<h3>Ultra Responsive</h3>
+Inovado has a fully responsive layout. That means it will fit your large desktop screen all the way down to your iPhone and of course any Tablet in between. 
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="small" color="white"]Buy this Theme[/button][/teaser][/one_third]
+[one_third_last][teaser]
+<h3>Great SEO Base</h3>
+FlexFit has a great SEO Base built in! It iss build with SEO best practices in mind and perfectly prepared to get high rankings on search engines. 
+[button link="http://themeforest.net/user/minti/portfolio?ref=minti" size="small" color="green"]Awesome Stuff[/button][/teaser][/one_third_last]
+
+[gap height="20"]
+
+[one_half][bloglist posts="2" show_title="yes" title="Recent News"][/one_half]
+[one_half_last][separator headline="h3" title="Get A Free Quote"]
+[box style="1"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna[gap height="10"][contact-form-7 id="406" title="Get a Quote"][/box][/one_half_last]
+
+[callout title="Try Inovado for only 45$ bucks!" button="Get Started &amp; Buy this Theme!" link="http://themeforest.net/user/minti/portfolio?ref=minti" buttoncolor="green" target="_blank" buttonmargin="4px 0 0 0;"]Unlimited home page layouts, let your creativity out of![/callout]
+
+[gap height="40"]
+[separator headline="h3" title="Some of Our Clients"]
+[one_fifth][responsive][tooltip text="Add Tooltips everywhere! Nice, huh?"]<img class="aligncenter size-full wp-image-96" alt="logo_1" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo_1.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-medium wp-image-97" alt="logo2" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo2.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Quisque ligulas ipsum"]<img class="aligncenter size-medium wp-image-98" alt="logo3" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo3.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Class aptent taciti"]<img class="aligncenter size-medium wp-image-99" alt="logo4" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo5.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth_last][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-full wp-image-102" alt="logo7" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo7.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth_last]</textarea>
+
+<div class="hr2"></div>
+<h3>Home: Version 4</h3>
+<textarea class="codecopy">[callout title="Try Inovado for only 45$ bucks!" button="Get Started &amp; Buy this Theme!" link="http://themeforest.net/user/minti/portfolio?ref=minti" buttoncolor="green" target="_blank" buttonmargin="4px 0 0 0;"]Unlimited home page layouts, let your creativity out of![/callout]
+
+[gap height="40"]
+
+[one_half][separator headline="h3" title="Embed Videos Everywhere"][video type="vimeo" id="34234286"][/one_half]
+[one_half_last][separator headline="h3" title="Why Choose Us?"][accordion open="1"]
+[accordion-item title="Fully Translation Ready" icon="music"]Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit purus, ullamcorper vel luctus vitae, venenatis eu odio. [/accordion-item]
+[accordion-item title="Awesome &amp; Clean Design" icon="star"]Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit purus, ullamcorper vel luctus vitae, venenatis eu odio. [/accordion-item]
+[accordion-item title="Fully Customizable Layout"]Praesent augue arcu, ornare ut tincidunt eu, mattis a libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In elit purus, ullamcorper vel luctus vitae, venenatis eu odio. [/accordion-item]
+[/accordion][/one_half_last]
+
+[gap height="20"]
+
+[separator headline="h3" title="What Our Clients Say"]
+[one_third][testimonial author="John Doe, Google Inc."]Maecenas lacus aliquet et nisl nunc, per sed sed maecenas.Lectus tincidunt pellentesque augue urna sit sed.[/testimonial][/one_third]
+[one_third][testimonial author="John Doe, Google Inc."]Maecenas lacus aliquet et nisl nunc, per sed sed maecenas.Lectus tincidunt pellentesque augue urna sit sed.[/testimonial][/one_third]
+[one_third_last][testimonial author="John Doe, Google Inc."]Maecenas lacus aliquet et nisl nunc, per sed sed maecenas.Lectus tincidunt pellentesque augue urna sit sed.[/testimonial][/one_third_last]
+
+[alert type="success"]Create hundreds of different pages using our built-in Shortcodes[/alert]</textarea>
+
+<div class="hr2"></div>
+<h3>Home: Version 5</h3>
+<textarea class="codecopy">[box][googlefont font="Sanchez" size="22px"]Hey there! We are NOVAX and we hand-craft creative Web Solutions with Solid Strategies, User-Centred Designs &amp; Powerful Technologies.[/googlefont][/box][gap height="20"]
+
+[portfolio projects="3" title="Recent Projects" show_title="yes" columns="3"]
+
+[gap height="20"]
+
+[separator headline="h3" title="Our Services"]
+
+[one_third][iconbox icon="new" title="Concept"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third][iconbox icon="mac" title="Design"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third_last][iconbox icon="monitor" title="Technology"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third_last]
+[gap height="15"]
+[one_third][iconbox icon="podcast" title="User Experience"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third][iconbox icon="search" title="SEO"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third]
+[one_third_last][iconbox icon="preferences" title="Hosting"]Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum.[/iconbox][/one_third_last]
+
+[gap height="20"]
+
+[callout title="Try Inovado for only 45$ bucks!" button="Get Started &amp; Buy this Theme!" link="http://themeforest.net/user/minti/portfolio?ref=minti" buttoncolor="green" target="_blank" buttonmargin="4px 0 0 0;"]Unlimited home page layouts, let your creativity out of![/callout]
+
+[gap height="40"]
+[separator headline="h3" title="Some of Our Clients"]
+[one_fifth][responsive][tooltip text="Add Tooltips everywhere! Nice, huh?"]<img class="aligncenter size-full wp-image-96" alt="logo_1" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo_1.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-medium wp-image-97" alt="logo2" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo2.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Quisque ligulas ipsum"]<img class="aligncenter size-medium wp-image-98" alt="logo3" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo3.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Class aptent taciti"]<img class="aligncenter size-medium wp-image-99" alt="logo4" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo5.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth_last][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-full wp-image-102" alt="logo7" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo7.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth_last]</textarea>
+
+<div class="hr2"></div>
+<h3>Home: Version 6</h3>
+<textarea class="codecopy">[callout title="Try Inovado for only 45$ bucks!" button="Get Started &amp; Buy this Theme!" link="http://themeforest.net/user/minti/portfolio?ref=minti" buttoncolor="green" target="_blank" buttonmargin="4px 0 0 0;"]Unlimited home page layouts, let your creativity out of![/callout]
+
+[gap height="30"]
+
+[portfolio projects="3" title="Recent Projects" show_title="yes" columns="4"]
+
+[gap height="20"]
+
+[one_half][bloglist posts="2" show_title="yes" title="Recent News"][/one_half]
+[one_half_last][separator headline="h3" title="Why Choose Us?"][accordion open="1"]
+[accordion-item title="Fully Translation Ready" icon="music"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/accordion-item]
+[accordion-item title="Awesome &amp; Clean Design" icon="star"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/accordion-item]
+[accordion-item title="Fully Customizable Layout"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/accordion-item]
+[/accordion][/one_half_last]
+
+[separator headline="h3" title="Some of Our Clients"]
+[one_fifth][responsive][tooltip text="Add Tooltips everywhere! Nice, huh?"]<img class="aligncenter size-full wp-image-96" alt="logo_1" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo_1.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-medium wp-image-97" alt="logo2" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo2.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Quisque ligulas ipsum"]<img class="aligncenter size-medium wp-image-98" alt="logo3" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo3.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Class aptent taciti"]<img class="aligncenter size-medium wp-image-99" alt="logo4" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo5.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth_last][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-full wp-image-102" alt="logo7" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo7.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth_last]</textarea>
+<em>Page Template: Default (with Sidebar right)</em>
+
+<div class="hr2"></div>
+<h3>Home: Version 7</h3>
+<textarea class="codecopy">[box style="1"][googlefont font="Sanchez" size="22px"]<div style="text-align: center !important;">Hey there! We are Inovado and we hand-craft creative Web Solutions with Solid Strategies, User-Centred Designs &amp; Powerful Technologies.</div>[/googlefont][/box][gap height="15"]
+
+[one_third][iconbox icon="preferences" title="Incredibly Flexible"]Our System is inredible flexible and lets you create stunning WordPress Themes without any coding knowledge out of the box. Easily customizable for everyone.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third]
+[one_third][iconbox icon="mac" title="Ultra Responsive"]This Theme has a fully responsive layout. That means it will fit your large desktop screen all the way down to your iPhone and of course any Tablet in between.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third]
+[one_third_last][iconbox icon="search" title="Great SEO Base"]FlexFit has a great SEO Base built in! It is build with web standards and SEO best practices in mind and perfectly prepared to get high rankings on search engines.[gap]<a href="#">Take a Tour →</a>[/iconbox][/one_third_last]
+
+[gap height="20"]
+
+[one_half][separator headline="h3" title="Get A Free Quote"]
+[box style="1"]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna[gap height="10"][contact-form-7 id="406" title="Get a Quote"][/box]
+[/one_half]
+[one_half_last][separator headline="h3" title="What Our Clients Say"][testimonial author="John Doe, Google Inc."]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/testimonial][testimonial author="Jane Miller, Company Inc."]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.[/testimonial][/one_half_last]
+
+[separator headline="h3" title="Some of Our Clients"]
+[one_fifth][responsive][tooltip text="Add Tooltips everywhere! Nice, huh?"]<img class="aligncenter size-full wp-image-96" alt="logo_1" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo_1.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-medium wp-image-97" alt="logo2" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo2.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Quisque ligulas ipsum"]<img class="aligncenter size-medium wp-image-98" alt="logo3" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo3.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth][responsive][tooltip text="Class aptent taciti"]<img class="aligncenter size-medium wp-image-99" alt="logo4" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo5.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth]
+[one_fifth_last][responsive][tooltip text="Curabitur pharetra magna"]<img class="aligncenter size-full wp-image-102" alt="logo7" src="http://inovado.mintithemes.com/wp-content/uploads/2013/01/logo7.png" width="160" height="76" />[/tooltip][/responsive][/one_fifth_last]</textarea>
+
+<h2 id="setup-blog" class="separator">10. Setting up Blog Page & Home Page</h2>
+
+<img src="images/readingsettings.png" alt="readingsettings" width="487" height="185" class="right">
+<p><strong>Blog</strong><br />To Set up a Blog go to your WordPress Admin Area and navigate to <strong>Pages > Add New</strong>. Choose a title like "Blog", leave the Editor blank and click the publish button. Now go to <strong>Settings > Reading</strong> select "A static page" and choose "Blog" for the Posts Page.</p>
+
+<p><strong>Home</strong><br />
+  To set up the Home Page of your theme go to your WordPress Admin Area and navigate to<strong> Pages > Add New</strong>. Choose a Title like "Home", select the "Full-Width" Template in the &quot;Page Attribute&quot;s. Add your content or copy one of the codes above, set a Slider (for mor Information see the Slider Section) and click the publish button. Now go to <strong>Settings > Reading</strong> select "A static page" and choose "Home" for the Front Page.</p>
+
+<div class="clear"></div>
+
+<div class="hr2"></div>
+
+<p><strong>Here's also a small screencast of setting up the Blog & Home page</strong></p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/EnCbih2oQyY" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="postformats" class="separator">11. Using different Post Formats</h2>
+
+<p>In case you haven't used Post Formats before, you may want to check what they really are and what they are meant to do: <br /><a href="http://codex.wordpress.org/Post_Formats" target="_blank">http://codex.wordpress.org/Post_Formats</a></p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/slLjpNeu0aw" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="menu-reading" class="separator">12. Setting up Menu</h2>
+		
+		<p>You have to set up custom menus, for your Navigation to work properly. This Theme comes with a custom menu location at the top of the Page - the "Main Navigation". Go to your WordPress Admin Area and navigate to <strong>Appearance > Menus</strong>. Now click "add menu". You can display Custom Links, Pages and Categories in your Custom Menu. Once you are finished with your Menu, choose the Menu you just created in the "Theme Locations" Panel for the Main Navigation.</p>
+		
+		<img src="images/custommenu.png" alt="custommenu" width="940" height="254">
+		
+<h2 id="setup-portfolio" class="separator">13. Setting up the Portfolio</h2>
+
+<p><strong>Set Up Portfolio Page</strong><br />To set up a Portfolio Page go to your WordPress Admin Area and navigate to<strong> Pages > Add New</strong>. Choose a title like "Portfolio" and select one of the "Portfolio" Templates (according how much items you want to display besides each other) in the Page Attributes. Choose which Portfolio Filters you want to show in the "Page Settings" (multiple select allowed). Click the Publish button. Now you can add Project items in <strong>Projects > Add New</strong>.</p>
+
+<p><strong>Add Portfolio items</strong><br />
+To add Portfolio items go to your WordPress Admin Area and navigate to <strong>Portfolio > Add New</strong>. Now you can fill out the following Fields.</p>
+
+<img src="images/portfolio.png" alt="portfolio" width="940" height="1800">
+
+<div class="hr2"></div>
+
+<p><strong>Here's also a small screencast of setting up the Portfolio page</strong></p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/RfUogRwEEiY" frameborder="0" allowfullscreen></iframe>
+		
+<h2 id="custom-sidebars" class="separator">14. Custom Sidebars</h2>
+
+<img src="images/sidebars.png" alt="sidebars" width="579" height="308" class="right">
+
+<img src="images/choosesidebar.png" alt="choosesidebar" width="579" height="156" class="right">
+<p>There are 3 pre-defined sidebars / widget areas that comes with this Premium Theme - Blog Widgets - Footer Widgets - Infobar Widgets, where you can drop your Widgets. You can also define custom sidebars for each page.</p>
+
+<p><strong>To create Custom Sidebars, follow these steps:</strong></p>
+
+<ul>
+	<li>Navigate to <strong>Appearance > Sidebars</strong>.</li>
+	<li>Click Add New Sidebar, choose a Name and click OK to save it.</li>
+	<li>Now you can add Widgets to your Sidebar under <strong>Appearance > Widgets</strong>.</li>
+	<li>Once you've added your Widgets you can select your Sidebar when creating a new page at the bottom of the Page. Just select your sidebar and choose the "Default" page template or "Sidebar Right" page template from the "Page Attributes".</li>
+</ul>
+
+<h2 id="slider" class="separator">15. Setting up Sliders</h2>
+
+<p>We've included the awesome Revolution Slider in this Theme. Here's a small screencast of how to set up Sliders. If you need further instructions check the official Revolution Slider Documentation we've included in this package.</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/XrcdSGfd7Gc" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="customwidgets" class="separator">16. Custom Widgets</h2>
+
+<p>Your new Theme comes with 7 custom widgets ("minti.Contact", "minti.Embed", "minti.Facebok", "minti.Flickr", "minti.Portfolio", "minti.Sponsor", "minti.Twitter") which can be found in your WordPress Admin Area under <strong>Appearance > Widgets</strong>. Here you find several areas where you can drop the widgets. In the Footer Area you can drop up to 4 Widgets, which will be displayed next to each other. The "Blog Sidebar" is the sidebar area of the Blog section.</p>
+
+<h2 id="shortcodes" class="separator">17. Shortcodes</h2>
+
+<p>This theme comes with some very useful short codes included. Shortcodes are a very powerful way to insert custom functions directly into the main content of a WordPress page or post. You can use them in Blog Posts, Pages and even Widgets and Widget Titles. Just click on a Shortcode Button and adjust the settings, then publish the page.</p>
+
+<img src="images/shortcodes.png" alt="shortcodes" width="940" height="456">
+
+<h2 id="translation" class="separator">18. Translation</h2>
+
+<p>This Premium Theme is fully translation ready! The translation files .po/.mo are located in <code>framework/languages</code> in the Themes folder. We've included English & German Translation right away.</p>
+
+<p><strong>To translate the theme, just follow these steps:</strong></p>
+
+<ul>
+	<li>Duplicate the en_EN.po file and rename it to your language (for German it's de_DE.po)</li>
+	<li>Edit the new .po file using POEdit (<a href="http://www.poedit.net/">http://www.poedit.net/</a>)</li>
+	<li>Hit save, a new .mo file should be created.</li>
+</ul>
+
+<p class="info">We constantly develop new features, so after downloading a new Version we recommend to check that everything is translated correct.</p>
+
+<h2 id="css-javascript" class="separator">19. CSS & Javascript</h2>
+		
+		<ol>
+			<li>style.css <em>- Default CSS</em></li>
+			<li>basic.css <em>- CSS for Basic WordPress Stuff</em></li>
+			<li>bootstrap.css<em>- CSS for Bootstrap icons, tooltips</em></li>
+			<li>flexslider.css<em>- CSS for FlexSlider</em></li>
+			<li>prettyPhoto<em>- CSS for Lightbox</em></li>
+			<li>responsive.css<em>- Manages Responsiveness</em></li>
+			<li>shortcodes.css<em>- CSS for all Shortcodes</em></li>
+			<li>skeleton.css<em>- Responsive Grid System</em></li>
+		</ol>
+
+	<p>This theme imports some useful Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>jQuery easing</li>
+			<li>jQuery bootstrap (tooltip)</li>
+			<li>jQuery fitvids</li>
+			<li>jQuery flexslider</li>
+			<li>jQuery MobileMenu</li>
+			<li>jQuery superfish</li>
+			<li>jQuery prettyPhoto</li>
+			<li>jQuery twitter</li>
+			<li>functions.js</li>
+			<li>shortcodes.js</li>
+		</ol>
+
+<h2 id="credtis" class="separator">20. Credits</h2>
+
+		<p>I've used the following images, icons or other files as listed. Isotope Plugin (Commercial License) is included, so you don't need to purchase your own license.
+		
+		<ul>
+			<li><a href="http://jquery.com" target="_blank">jQuery</a></li>
+			<li><a href="http://gsgd.co.uk/sandbox/jquery/easing" target="_blank">jQuery easing</a></li>
+			<li><a href="http://flexslider.com" target="_blank">jQuery Flexslider Plugin</a></li>
+			<li><a href="http://isotope.metafizzy.co/" target="_blank">jQuery Isotope Plugin (Commercial License)</a></li>
+			<li><a href="https://github.com/sy4mil/Options-Framework" target="_blank">SMOF Options Framework</a></li>
+			<li><a href="http://www.deluxeblogtips.com/meta-box" target="_blank">Meta-Box Script</a></li>
+			<li><a href="http://gis.yohman.com/gmaps-plugin/" target="_blank">Google Maps Shortcode</a></li>
+			<li><a href="http://github.com/mambows/mobilemenu" target="_blank">Mobilemenu</a></li>
+			<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">prettyPhoto</a></li>
+			<li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/" target="_blank">superfish</a></li>
+			<li><a href="http://www.woothemes.com/flexslider/" target="_blank">Flexslider</a></li>
+			<li><a href="http://www.getson.info" target="_blank">Sidebars Generator</a></li>
+			<li><a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a></li>
+			<li><a href="http://www.jonasraskdesign.com/" target="_blank">Iconset: Danish Royalty Free Icons by Jonas Rask Design</a></li>
+			<li><a href="http://www.glyphicons.com/" target="_blank">Glyphicons Halflings</a></li>
+		</ul>
+		
+		<div class="hr"></div>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Best Regards, minti</strong></p>
+		
+		</div><!-- sixxten wrap -->
+
+	</div><!-- container -->
+	
+	<div id="footer">
+		
+		<div class="container">
+			
+			<div class="sixteen columns">© 2013 mintithemes.com<br />
+All Rights Reserved </div>
+			
+		</div>
+		
+	</div>
+
+
+<!-- End Document
+================================================== -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.min.js"></script>
+
+<script type="text/javascript">
+		$(".container").fitVids();
+		
+$(document).ready(function() {
+  function filterPath(string) {
+  return string
+    .replace(/^\//,'')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+    .replace(/\/$/,'');
+  }
+  var locationPath = filterPath(location.pathname);
+  var scrollElem = scrollableElement('html', 'body');
+ 
+  $('a[href*=#]').each(function() {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    if (  locationPath == thisPath
+    && (location.hostname == this.hostname || !this.hostname)
+    && this.hash.replace(/#/,'') ) {
+      var $target = $(this.hash), target = this.hash;
+      if (target) {
+        var targetOffset = $target.offset().top;
+        $(this).click(function(event) {
+          event.preventDefault();
+          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+            location.hash = target;
+          });
+        });
+      }
+    }
+  });
+ 
+  // use the first element that is "scrollable"
+  function scrollableElement(els) {
+    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+      var el = arguments[i],
+          $scrollElement = $(el);
+      if ($scrollElement.scrollTop()> 0) {
+        return el;
+      } else {
+        $scrollElement.scrollTop(1);
+        var isScrollable = $scrollElement.scrollTop()> 0;
+        $scrollElement.scrollTop(0);
+        if (isScrollable) {
+          return el;
+        }
+      }
+    }
+    return [];
+  }
+ 
+});
+		
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	background-color: #FFF;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+}
+.grid{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #333;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+	}
+#wirenav{
+	float: right;
+	height: 400px;
+	width: 130px;
+	position: fixed;
+	background-color: #CCC;
+	left: 90%;
+	}	
+#index{
+	height: 1000px;
+	background-image: url(../images/wf-home.jpg);
+	}
+#about{
+	height: 1500px;
+	background-image: url(../images/wf-about.jpg);
+	}
+#product{
+	height: 1300px;
+	background-image: url(../images/wf-product.jpg);
+	}
+#products{
+	height: 1680px;
+	background-image: url(../images/wf-products.jpg);
+	}
+#contact{
+	height: 1500px;
+	background-image: url(../images/wf-contact.jpg);
+	}		

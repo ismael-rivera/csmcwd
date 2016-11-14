@@ -1,0 +1,16 @@
+FORM TEMPLATES - THESE IS THE BACKUP SCRIPTS FOR THE CONTACT FORM PLUGIN.
+THE SCRIPTS BELOW WILL ONLY FUNCTION UNDER THIS PLUGINS API
+
+GENERAL ENQUIRY
+
+<p>First Name <span class="required"></span>[text* first-name] </p>
+
+<p>Last Name <span class="required"></span>[text* last-namel] </p>
+
+<p>Email Address <span class="required"></span>[email* email-address] </p>
+
+<p>Phone Number <span class="required"></span>[text* phone-number]</p>
+
+<p>Message <span class="required"></span>[textarea* your-message]</p>
+
+<p>[submit "Send Form"]</p>

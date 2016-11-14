@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+/*------------------SEARCH FORM---------------------*/
+#search_form{
+	float:right;
+	}
+#s {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	height: 28px;
+	width: 175px;
+	color: #CCC;
+	}
+#searchform div{
+	border: 1px solid #999;
+}
+/*#searchsubmit{
+	background-color: #333;
+	background-image: url(../images/search_btn.png);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	}*/
+#searchsubmit{
+	background : url("../images/search_btn.png") no-repeat;
+	width : 31px;
+	height :28px;
+	border : 1px solid #CCC;
+	color : transparent;
+}		 

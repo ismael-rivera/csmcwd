@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+<style type="text/css">
+.gallery { float:left; width:429px; height:428px; margin:55px 0 0 20px; }
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:429px; height:428px; overflow:hidden; }
+p#controls { margin:0; position:relative; }
+#prevBtn { display:block; margin:0; overflow:hidden; width:59px; height:59px; position:absolute; left: -17px !important; left:-57px; top:-237px; }
+#nextBtn { display:block; margin:0; overflow:hidden; width:59px; height:59px; position:absolute; left:429px !important; left: 389px; top:-237px; }
+#prevBtn a { display:block; width:59px; height:59px; background:url(images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:59px; height:59px; background:url(images/r_arrow.gif) no-repeat 0 0; }
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="blok_header">
+    <div class="header">
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="214" height="115" border="0" alt="logo" /></a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="active"><span>Home</span></a></li>
+          <li><a href="projects.html"><span>Projects</span></a></li>
+          <li><a href="about.html"><span>About us</span></a></li>
+          <li><a href="contact.html"><span>Contact us</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <div class="header_text_bg">
+    <div class="header_text">
+      <div class="div">
+        <div class="left1">
+          <h2>We provide <span>High <br />
+            Quality Websites</span> <br />
+            for your business</h2>
+          <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+          <ul>
+            <li>Sed congue, dui vel tristique mollis.</li>
+            <li>Morbi eget sem. Nam mollis. </li>
+            <li>Donec sed velit ut tellus fermentum.</li>
+          </ul>
+          <div class="clr"></div>
+          <p><a href="#"><img src="images/more_info_java.gif" alt="picture" width="161" height="38" border="0" /></a><a href="#"><img src="images/sin_up_java.gif" alt="picture" width="161" height="38" border="0" /></a></p>
+        </div>
+      </div>
+      <div class="gallery">
+        <div id="slider">
+          <ul>
+            <li><img src="images/simple_text_img_1.jpg" alt="screen 1" width="429" height="428" border="0"  /></li>
+            <li><img src="images/simple_text_img_2.jpg" alt="screen 1" width="429" height="428" border="0"  /></li>
+            <li><img src="images/simple_text_img_3.jpg" alt="screen 1" width="429" height="428" border="0"  /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="bloga_resize">
+    <div class="bloga_resize_use">
+      <div class="bloga">
+        <h2>Web Design </h2>
+        <img src="images/img_1.jpg" alt="picture" width="58" height="58" class="normmal" />
+        <p><span>The point of using Lorem Ipsum is that</span> <br />
+          Normal distribution of letters, as <br />
+          opposed to using 'Content here, content.</p>
+        <p><a href="#"><img src="images/more_information.gif" alt="picture" width="106" height="26" border="0" /></a></p>
+      </div>
+      <div class="bloga">
+        <h2>Web Development</h2>
+        <img src="images/img_2.jpg" alt="picture" width="58" height="58" class="normmal" />
+        <p><span>The point of using Lorem Ipsum is that</span> <br />
+          Normal distribution of letters, as <br />
+          opposed to using 'Content here, content.</p>
+        <p><a href="#"><img src="images/more_information.gif" alt="picture" width="106" height="26" border="0" /></a></p>
+      </div>
+      <div class="bloga">
+        <h2>our support</h2>
+        <img src="images/img_3.jpg" alt="picture" width="58" height="58" class="normmal" />
+        <p><span>The point of using Lorem Ipsum is that</span> <br />
+          Normal distribution of letters, as <br />
+          opposed to using 'Content here, content.</p>
+        <p><a href="#"><img src="images/more_information.gif" alt="picture" width="106" height="26" border="0" /></a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="body_big">
+        <h2>Welcome to el theme!<span></span></h2>
+        <p><span>This is a Headline!</span><br />
+          Aenean tincidunt pharetra leo. Curabitur euismod sollicitudin elit. Donec faucibus lacus nec sapien. Aliquam ipsum nisi, scelerisque et, commodo nec, consectetur vel, tellus. Cras ipsum diam, hendrerit id, accumsan sit amet, fermentum vel, dui. Morbi blandit commodo tellus. </p>
+        <p><span>Here’s Another One</span><br />
+          Mauris vulputate metus eu nisl. Praesent placerat. Mauris vitae erat id ante viverra sodales. Proin tincidunt porta velit. Sed a ligula id felis rutrum placerat. Curabitur et lorem non urna tristique pharetra. Nullam luctus tristique dui. Etiam egestas scelerisque purus. Ipsum diam, hendrerit id, accumsan sit amet, fermentum vel, dui. Morbi blandit commodo tellus. </p>
+        <p><span>The Knockout Punch</span><br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh mi, commodo eu, pellentesque ut, blandit rutrum, ligula. Praesent ultricies urna a urna. Quisque massa. Cras ipsum diam, hendrerit id, accumsan sit amet, fermentum vel, dui. Morbi blandit commodo tellus. </p>
+        <p><br />
+        </p>
+      </div>
+      <div class="body_small">
+        <h2>Clients saying</h2>
+        <div class="clients"> <img src="images/img_4.gif" alt="picture" width="56" height="57" />
+          <p style="padding:15px 0 0 15px;">&quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.” </p>
+          <p style="float:right;"><span>-John Smith, webdesigner</span></p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="clients"> <img src="images/img_3.gif" alt="picture" width="56" height="56" />
+          <p style="padding:15px 0 0 15px;">&quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.” </p>
+          <p style="float:right;"><span>-John Smith, webdesigner</span></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+</div>
+<div class="footer">
+  <div class="footer_resize"> <a href="\"><img src="images/footer_logo.gif" alt="picture" width="136" height="80" border="0" /></a>
+    <p class="leftt">Copyright © Sitename.com. All Rights Reserved</p>
+    <p class="rightt">Design by <a href="http://dreamtemplate.com/">dreamtemplate.com</a></p>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+</body>
+</html>

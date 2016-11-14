@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function(){
+	$('#contactform').submit(function(){				  
+		var action = $(this).attr('action');
+		$.post(action, { 
+			name: $('#name').val(),
+			email: $('#email').val(),
+			company: $('#company').val(),
+			subject: $('#subject').val(),
+			message: $('#message').val()
+		},
+			function(data){
+				$('#contactform #submit').attr('disabled','');
+				$('.response').remove();
+				$('#contactform').before('<p class="response">'+data+'</p>');
+				$('.response').slideDown();
+				if(data=='Message sent!') $('#contactform').slideUp();
+			}
+		); 
+		return false;
+	});
+});
+// ]]>
+</script>
+</head>
+<body>
+<div class="main">
+  <div class="blok_header">
+    <div class="header">
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" width="214" height="115" border="0" alt="logo" /></a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html"><span>Home</span></a></li>
+          <li><a href="projects.html"><span>Projects</span></a></li>
+          <li><a href="about.html"><span>About us</span></a></li>
+          <li><a href="contact.html"  class="active"><span>Contact us</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <div class="header_text_bg">
+    <div class="header_text2">
+    <h2><span>Contact  </span>Us</h2>
+    <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+    <div class="div"></div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="bloga_resize">
+  <div class="bloga_resize_use">
+  <h3>Contact to bittheme Company</h3>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  </div>
+  <div class="body">
+  <div class="body_resize">
+  <div class="body_big">
+    <h2>Contact us</h2>
+    <p>Aenean tincidunt pharetra leo. Curabitur euismod sollicitudin elit. Donec faucibus lacus nec sapien. Aliquam ipsum nisi, scelerisque et, commodo nec, consectetur vel, tellus. Cras ipsum diam, hendrerit id, accumsan sit amet, fermentum vel, dui. Morbi blandit commodo tellus. </p>
+<h2>Here is the contact form you are looking for</h2>
+<form action="contact.php" method="post" id="contactform">
+            <ol>
+              <li>
+                <label for="name">First Name <span class="red">*</span></label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="email">Your email <span class="red">*</span></label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="company">Company Name</label>
+                <input id="company" name="company" class="text" />
+              </li>
+              <li>
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" class="text" />
+              </li>
+              <li>
+                <label for="message">Message <span class="red">*</span></label>
+                <textarea id="message" name="message" rows="6" cols="50"></textarea>
+              </li>
+              <li class="buttons">
+                <input type="image" name="imageField" id="imageField" src="images/send.gif" />
+              </li>
+          </ol>
+        </form>
+</div>
+    <div class="body_small">
+    <h2>Latest news</h2>
+    <p><strong>Customer Support</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetuer <br />
+      adipiscing elit. Sed ut felis orci, ac semper justo.</p>
+    <p>111-222-4444<br />
+      <a href="#">support@example.com</a><br />
+      Monday-Friday 8am-8pm</p>
+    <p><strong>Sales Enquiry</strong></p>
+    <p>Lorem ipsum dolor sit amet, consectetuer <br />
+      adipiscing elit.</p>
+    <p>111-222-3333<br />
+      <a href="#">sales@example.com</a><br />
+      Monday-Friday 8am-5pm</p>
+  <div class="bg"></div>
+  <p><span><strong>Address:</strong></span> 1458 Sample Road, Greenvalley, 12<br />
+    <span><strong>Tel: </strong></span>+123-1234-5678<br />
+   <span> <strong>FAX:</strong></span> +458-4578<br />
+   <span> <strong>Others</strong></span>: +301 - 0125 - 01258<br />
+   <span> <strong>E-mail:</strong></span> mail@yoursitename.com</p>
+    </div>
+  </div>
+  <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+<div class="footer">
+
+  <div class="footer_resize"> <a href="\"><img src="images/footer_logo.gif" alt="picture" width="136" height="80" border="0" /></a>
+  <p class="leftt">Copyright © Sitename.com. All Rights Reserved</p>
+    <p class="rightt">Design by <a href="http://dreamtemplate.com/">dreamtemplate.com</a></p>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+Hi Ismael,
+Thanks for keeping us updated!
+Here are the links and instructions for the website:
+
+Homepage
+The "READ MORE" buttons in the content slider will link to the "Services" page (with the relevant service expanded)
+For example: The "READ MORE" button for Project Management will click through to the "Services" page with the "Project Management" section already expanded in the accordion
+
+The "BOOK NOW" buttons in the content slider will link to the "Contact" page with the relevant form in "Step 2" appearing for each service
+For example: The "BOOK NOW" button for Project Management will click through to the "Contact" page, Step 1 will already have "Project Management" displaying in the drop down menu and Step 2 will be ready for the user to fill out.
+
+Services Page
+The "BOOK NOW" buttons on the services page will link through to the "contact" page with the relevant form in "Step 2" appearing for each service
+
+Gallery
+The 12 images for this are in the file TRC_GalleryOverlay.psd. They are already resized to 600 x 400 pixels.
+
+Locations
+The locations page has the link "contact form" in the introduction paragraph text. Please link this to the default contact page where the user can select which service they would like from the drop down menu.
+The map is just an image with no links.
+
+Contact Page
+The "SEND FORM" button in step 2 will send to the following email addresses:
+
+General Inquiries: info@thatretailcompany.com.au
+Project Management: projects@thatretailcompany.com.au
+Retail Fitout: fitouts@thatretailcompany.com.au
+Store Maintenance: maintenance@thatretailcompany.com.au
+Office Fitout: fitouts@thatretailcompany.com.au
+Retail Defit: defits@thatretailcompany.com.au
+Site Hoarding: hoardings@thatretailcompany.com.au
+Fixture Removal and Delivery: delivery@thatretailcompany.com.au
+Rubbish Removal: rubbish@thatretailcompany.com.au
+
+The "DOWNLOAD" button on the "Need a Purchase Order Form?" promo tile will link the "TRC_PurchaseOrderForm.pdf". 
+NOTE: this has been updated since the I sent you the original files. Please use the attached pdf.
+
+
+Privacy Policy
+Note that there is a light grey link at the bottom of the page saying "This Policy is powered by Free Privacy Policy". Please link the words "Free Privacy Policy" to: http://www.freeprivacypolicy.com/
+
+Promo Tiles
+The promo tiles at the bottom of the homepage and in the sidebar of the inner pages will link as follows:
+
+Make a Booking Request "CONTACT US" button: contact page
+Why Choose Us "WHO ARE WE?" button: about  page
+Our Service Locations "VIEW MAP" button: locations page
+Check Out Our Gallery "VIEW GALLERY" button: gallery page
+Testimonials "READ MORE" button: testimonials page
+
+Please let me know if I have missed anything or if you need me to explain anything in more detail.
+Thanks,
+Alex
+
+Forgot one:
+
+Testimonials Page
+Please set this up so that it will send an email to my client requesting approval before publishing any testimonials on the website.
+I will confirm which email address with my client and get back to you (just use info@thatretailcompany.com.au for now if you like).
+
+The testimonials promo tile (ie the one in the sidebar of the about page) should automatically display a short excerpt (2 lines) of the latest three testimonials.
+
+Also, I have not set up pagination for the testimonials this in the design. I was hoping it would just load them all down the page as you scroll (similar to facebook timeline or google images where it only loads the rest of the page if you scroll down far enough).
+If it is much easier to add the page numbers at the bottom then that is fine too.
+
+Also, please do the same for the Gallery page.
+
+
+Thanks!
+
+info@thatretailcompany.com.au

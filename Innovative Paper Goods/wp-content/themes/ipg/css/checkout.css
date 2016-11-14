@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+.checkout
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+#dpsc_inquiry_form{
+	border: 1px solid #CCC;
+	padding: 20px 0px 20px 180px;
+	}
+#dpsc_inquiry_form input{
+	width: 300px;
+	height: 30px;
+	font-size: 18px;
+	padding: 0px 5px 0px 5px;
+	}	
+#dpsc_inquiry_form textarea{
+	max-width: 620px;
+	font-size: 18px;
+	padding: 5px 0px 0px 5px;
+	}	
+span #dpsc-checkout-text{
+	font-size: 36px;	
+	}	
+.dpsc-table-checkout{
+	margin: 20px 0px 40px 0px; 
+	width: 960px;
+	}
+.dpsc-checkout-product-list{	
+	}
+.dpsc-checkout-product-list tr{
+	border: 1px solid #CCC;
+	height: 50px;
+	}	
+.dpsc-checkout-product-list th{
+	background-color: #ebebeb;
+	width: 300px;
+	padding: 0px 0px 0px 20px;
+	font-weight: bold;
+	}	
+.dpsc-checkout-product-list td{	
+	width: 280px;
+	padding: 0px 0px 0px 40px;
+	}
+	

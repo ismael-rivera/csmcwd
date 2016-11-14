@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/*----------------Session Menu-------------------*/
+
+#session_wrapper{
+	/*background-color: #0C3;*/
+	height: 25px;	
+	}
+#session_wrapper ul{
+	float: right;
+	}
+#session_wrapper li{
+	display: inline-block;
+	}		
+#session_wrapper a{
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;	
+	}		
+/*-------------------------------------Top Menu-Access------------------------------------------------*/
+#top-menu{
+	width: 1030px;
+	background-image: url(../images/topmenu_bg_pattern01.gif);
+	background-repeat: repeat-x;
+	height: 40px;
+	border: 1px solid #dbdbdb;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	}	
+#access{
+	
+	min-height: 50px;
+	overflow: auto;
+	clear: both;	
+	}
+#access ul{
+	float: left;
+	margin-left: 15px;
+	}	
+#access li{
+	display: inline-block;
+	}
+#access li a{
+	display: block;
+	height: 18px;	
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	margin-right: 6px;
+	margin-top: 2px;
+	}
+#access li a:hover{
+	background-color: #efefef;
+	border: 1px solid #dbdbdb;
+	padding-right: 14px;
+	padding-left: 14px;
+	padding-top: 7px;
+	padding-bottom: 9px;
+	}
+
+/*-------------------------------------End-Top-Menu-Access--------------------------------------------*/

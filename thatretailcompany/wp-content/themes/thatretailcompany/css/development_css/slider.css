@@ -1,0 +1,173 @@
+#nav-container{}
+#nav {
+	width: 930px;
+	}
+#nav{
+	vertical-align: middle !important;
+	border-left: 1px solid #dedede;
+	border-bottom: 0.2px solid #dedede;
+	}		
+#nav li, #nav a{
+	}
+#nav li{
+	height: 49px;
+	display: inline-block;
+	background: url(../images/slider/slider-nav-bg.png) repeat-x 0px 10px;
+	width: 12.286%;
+	text-align: center;
+	border-top: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	border-left: 1px solid #fff;
+	position: relative;
+	vertical-align: middle !important;
+	}
+#nav a{
+	color: #666;
+	height: 48px;
+	display: block;
+	width: 100%;
+	font: 13px Conv_Play-Bold_0;
+	padding-top: 6px;
+	position: relative;
+	vertical-align: middle !important;
+}
+#nav a:hover{
+	color: #4c6680;
+	text-decoration: none;
+	}
+#nav .activeSlide a{
+	color: #4c6680;
+	background: url(../images/slider/slider-nav-bg-active.png) repeat-x !important;
+	}
+	
+.activeSlide span {
+	background: url(../images/slider/active_arrow.png) no-repeat;
+	height: 10px;
+	width: 19px;
+	position: absolute;
+	z-index: 1500;
+	display: block;
+	top: -10px;
+	left: 43%;
+	/*border: 1px solid #F00;*/
+	}
+a.padtop{
+	padding-top: 15px !important;
+	}				
+.panel-wrapper{
+	height: 320px;
+	width: 930px;
+	}
+.panel{
+	height: 318px;
+	width: 520px;
+	float: right;
+	display: block;
+	}
+.panel-info{
+	height: 205px;
+	width: 455px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	color: #FFF;
+	font: 15px Arial, Helvetica, sans-serif;
+	padding-right: 20px;
+	padding-left: 40px;
+	padding-top: 30px;
+	/*border: 1px solid #0F0;*/
+	}
+.panel-info p{
+	height: 86px;
+	width: 408px;
+	}			
+#slideshow{
+	position: relative;
+	width: 930px;
+	height: 367px;
+	overflow: hidden;
+	}		
+#slider{
+	background: url(../images/slider/slider_bg.jpg) no-repeat;
+	overflow: hidden;
+	position: relative;
+	}	
+	
+/*---
+DO NOT CONSOLIDATE THIS CSS. I KNOW IT LOOKS REDUNDANT
+BUT CONSILDATING THE CODE WILL MAKE THE SLIDES DISAPPEAR.
+--*/		
+#slide-1, #slide-2, #slide-3, #slide-4, #slide-5, #slide-6, #slide-7, #slide-8 {
+	}
+#slide-1{background: url(../images/slider/project-management.png) no-repeat;}
+#slide-2{background: url(../images/slider/retail-fitout.png) no-repeat;} 
+#slide-3{background: url(../images/slider/store-maintenance.png) no-repeat;}
+#slide-4{background: url(../images/slider/office-fitout.png) no-repeat 60px 0px;}
+#slide-5{background: url(../images/slider/retail-defit.png) no-repeat 70px 8px;}
+#slide-6{background: url(../images/slider/site-hoarding.png) no-repeat 40px 0px;;}
+#slide-7{background: url(../images/slider/fixture-removal.png) no-repeat 40px 0px;;}
+#slide-8{background: url(../images/slider/rubbish-removal.png) no-repeat 10px 0px;;}		
+
+#t1, #t2, #t3, #t4, #t5, #t6, #t7, #t8 {
+	height: 43px;
+	width: 420px;
+	text-indent: -9999px;
+	clear: both;
+	float: none;
+	/*border: 1px solid #0FF;*/
+	}
+#t1{background: url(../images/slider/title-01.png) no-repeat;} 
+#t2{background: url(../images/slider/title-02.png) no-repeat;} 
+#t3{background: url(../images/slider/title-03.png) no-repeat;} 
+#t4{background: url(../images/slider/title-04.png) no-repeat;} 
+#t5{background: url(../images/slider/title-05.png) no-repeat;} 
+#t6{background: url(../images/slider/title-06.png) no-repeat;} 
+#t7{background: url(../images/slider/title-07.png) no-repeat;} 
+#t8{background: url(../images/slider/title-08.png) no-repeat;}
+	
+
+#next, #prev{
+	display: block;
+	height: 42px;
+	width: 20px;
+	position: absolute;
+	z-index: 1000;
+	top: 155px;
+	text-indent: -9999px;
+}
+
+#next{
+	right:22px;
+	background: url(../images/slider/slide_nav.png) no-repeat -64px 0px;
+}
+#next:hover{
+	background: url(../images/slider/slide_nav.png) no-repeat -96px 0px;
+	}
+#prev{
+	left: 20px;
+	background: url(../images/slider/slide_nav.png) no-repeat -13px 0px;
+}
+#prev:hover{
+	background: url(../images/slider/slide_nav.png) no-repeat -45px 0px;
+	}
+.readmore,.booknow{
+	text-indent: -9999px;
+	display: inline-block;
+	height: 30px;
+	width: 110px;
+	margin-top: 30px;
+	} 	
+.readmore{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px -62px;
+	margin-right: 20px;
+	}
+.readmore:hover{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px -93px;
+	}	
+.booknow{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px 0px;	
+	}										
+.booknow:hover{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px -31px;
+	}		
+	

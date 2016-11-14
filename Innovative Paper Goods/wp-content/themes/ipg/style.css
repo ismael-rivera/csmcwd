@@ -1,0 +1,17 @@
+/*
+Theme Name: IPG
+Theme URI: http://elliotjaystocks.com
+Description: The totally nude Wordpress theme. Phwoar! (Based on Twenty Ten)
+Version: 3.0
+Author: Ismael Rivera
+Author URI: http://speggo.com
+Tags: starkers, naked, clean, basic
+*/
+
+
+@import url("css/ie.css");
+@import url("css/reset.css");
+@import url("css/layout.css");
+@import url("css/checkout.css");
+@import url("css/homepage_content.css");
+@import url("css/typography.css");

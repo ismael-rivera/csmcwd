@@ -1,0 +1,74 @@
+Hi Ismael,
+
+No problems. I don't have skype set up on my computer. Email is fine but we need to chat I can log into Windows Live Messenger.
+
+You can find all the psd files here (225MB):
+
+www.thatretailcompany.com.au/TRCWebsitePSDs.zip
+
+the corresponding jpg files are zipped separately here:
+
+www.thatretailcompany.com.au/TRCWebsiteJPGs.zip
+
+Alternatively you can get them through ftp. The ftp details are:
+
+FTP Host Address: ftp.tppinternet.com.au
+//OLD-Username: thth32448
+//OLD-Password: qb6cIQPf6
+
+Username: thth32448	
+Password: qb6cIQPf5
+
+Port: 21
+Filename of the Default Index Document: index.html
+
+http://tpp.com.au/
+
+Username: CL-57017
+Password: TurkishCoffee
+
+If you are going to build it straight to thatretailcompany.com.au, it would be great if you can password protect it or create a test folder or something so that people won't see the website at "thatretailcompany.com.au" before it is finished.
+
+Please note:
+
+- button hoverstates in the psd files are in a seperate layer or folder above the normal state
+- The background tile for grey grid content area has already been created. It is 40px x 40px in the layer named "40px tile" (or any 40x40px area of the background should tile seamlessly)
+- font for the website is Play Bold which is a google font (attached). 
+
+You've probably guessed by now that I'm a designer so let me know if anything is missing from the psd files that you need.
+
+If you have any questions or need anything else please let me know. It's very late here in Sydney (2:30am) so I will be back in about 10 hours or so if you need anything else.
+
+Thanks,
+Alex
+
+
+Alexandra Eather  |  Freelance Designer
+
+P  0414 012 173
+E  alexandrae@hotmail.com
+W www.alexandrae.com
+
+
+From: coralblue79@gmail.com
+To: alexandrae@hotmail.com
+Subject: Scriptlance Project confirmation email
+Date: Mon, 25 Jun 2012 13:33:25 -0300
+
+Hi, I just accepted your bid. 
+
+No, what I meant was that I was waiting to pick your bid. I was clicking send on that that message when I got confirmation that you had just done that. You don't need to do anything else. I'm sending you an email right now. 
+
+I have to work as quickly and effectively as I can to make the deadline, so if you wouldn't mind passing me your hosting and ftp account info so I can have it on hand. Even though I have my own remote server, I ask for this now because I may need to to test against my own server for any discrepancies. This is as much for cross-browsing purposes as it is for cross-server. In any event, you don't have to provide it now but sometime during the course of the project I may need it. 
+
+You can contact me on Skype: coralblue79
+
+If you prefer to use another Messenger program, let me know, I have Adium, MSN, yahoo. 
+
+Also regarding your wish to contact through email... of course, all email messages will be sent directly to you on this email. 
+
+Ismael Rivera
+coralblue79@gmail.com
+
+
+

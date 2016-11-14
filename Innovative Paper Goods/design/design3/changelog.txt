@@ -1,0 +1,39 @@
+version 1.8
+- New shortcodes added
+    * epanel/
+- Page templates bugs fixed
+    * style.css
+    * page-contact.php
+- Timthumb updated
+    * timthumb.php
+
+version 1.7
+- Theme updated with page templates collection
+
+version 1.6
+- ePanel updated with logo/favicon upload features
+- Dummy content import integrated into theme
+    * epanel/
+    * sampledata/sample.xml
+
+version 1.5
+- Disabling top tier nav links now works correctly
+    * includes/scripts.php
+
+version 1.4
+- Added the ElegantThemes Shortcodes Collection
+    * /epanel/
+
+version 1.3
+- Updated the theme to work with the latest version of eShop. 
+- Added new ribbons
+- Fixed problem with active links in navigation menu
+    * style.css
+    * includes/functions/additional_functions.php
+
+version 1.2
+- Improved backend to allow for custom ribbon graphics. Also added ribbon psd file. 
+
+version 1.1
+- Updated theme with extended league gothic font file.
+

@@ -1,0 +1,22 @@
+/*
+Theme Name: thatretailcompany
+Theme URI: http://speggo.com
+Description: The totally nude Wordpress theme. Phwoar! (Based on Twenty Ten)
+Version: 1.0
+Author: Ismael Rivera
+Author URI: http://speggo.com
+Tags: thatretailcompany, naked, clean, basic
+*/
+
+/*MINIFIED FILES - These are the compressed sum of all the css files below. 
+When these files are active, all development files should be commented out.*/
+/*@import "css/minified.css";*/
+
+@import "css/unminified.css";
+@import "css/ie.css";
+
+
+/*Cross-Browser*/
+/*
+@import "css/uniform.default.css";
+*/

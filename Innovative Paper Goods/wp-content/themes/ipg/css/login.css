@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 a {
+background: url(LOGO.PNG) no-repeat;
+height: 130px; width: 330px;
+}
+html {
+background:#CHANGE ME TO HEX COLOR!important;
+}
+body{
+background: url(BACKGROUND.JPG) repeat;
+height:100%;
+}
+/* Color of Top Bar Link */
+
+#backtoblog a
+{
+color:transparent!important; /* Change to HEX Color or Use transparent */
+}
+/* Background Image To The Form */
+ 
+form
+{
+background:url(FORM.PNG); /* Add Image Path*/
+width:330px;
+height:198px;
+}
+/* Color of Labels - Example USERNAME and PASSWORD */
+
+label
+{
+color:#fff;
+font-size:13px;
+}
+/* Color of the links */
+
+.login #nav a
+{
+color:transparent!important; /* Change to HEX Color or Use transparent */
+} 
+/* Position of the Login Form */
+#login
+{
+margin:280px; /* Use a single position like 100px or use a multi position like 10px 10px 10px 10px */
+}

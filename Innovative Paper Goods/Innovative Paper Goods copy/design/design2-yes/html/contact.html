@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function(){
+	$('#contactform').submit(function(){				  
+		var action = $(this).attr('action');
+		$.post(action, { 
+			name: $('#name').val(),
+			email: $('#email').val(),
+			company: $('#company').val(),
+			subject: $('#subject').val(),
+			message: $('#message').val()
+		},
+			function(data){
+				$('#contactform #submit').attr('disabled','');
+				$('.response').remove();
+				$('#contactform').before('<p class="response">'+data+'</p>');
+				$('.response').slideDown();
+				if(data=='Message sent!') $('#contactform').slideUp();
+			}
+		); 
+		return false;
+	});
+});
+// ]]>
+</script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="block_header">
+      <div class="logo"><a href="index.html"><img src="images/logo.gif" width="219" height="137" border="0" alt="logo" /></a></div>
+      <div class="search">
+        <form id="form1" name="form1" method="post" action="">
+          <label><span>
+            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+            </span>
+            <input name="b" type="image" src="images/search.gif" class="button" />
+          </label>
+        </form>
+      </div>
+      <div class="clr"></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html"><span>Home</span></a></li>
+          <li><a href="services.html"><span>About Us</span></a></li>
+          <li><a href="services.html"><span>Services</span></a></li>
+          <li><a href="portfolio.html"><span>Portfolio</span></a></li>
+          <li><a href="contact.html" class="active"><span>Contact us</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="slider_top2">
+    <div class="header_text2">
+      <h2>Online contact form</h2>
+      <p>Nunc eleifend, enim nec posuere posuere, dui dolor interdum orci, non luctus pede felis a eros. Curabitur dignissim, purus id posuere Vehicula, ipsum risus placerat lacus, vel interdum enim augue at au gue. </p>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="top_sup">
+    <div class="top_sup_resize"> <a href="#"><img src="images/Twitter.gif" alt="picture" width="222" height="40" border="0" /></a>
+      <p><span>Your Slogan</span><br />
+        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' </p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="right">
+        <h2>Contact Form</h2>
+        <p>Mauris ornare aliquam urna, accumsan bibendum eros auctor ac. Suspendisse adipiscing rhoncus massa, sit amet sollicitudin quam vulputate non. </p>
+        <form action="contact.php" method="post" id="contactform">
+          <ol>
+            <li>
+              <label for="name">First Name <span class="red">*</span></label>
+              <input id="name" name="name" class="text" />
+            </li>
+            <li>
+              <label for="email">Your email <span class="red">*</span></label>
+              <input id="email" name="email" class="text" />
+            </li>
+            <li>
+              <label for="company">Company</label>
+              <input id="company" name="company" class="text" />
+            </li>
+            <li>
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" class="text" />
+            </li>
+            <li>
+              <label for="message">Message <span class="red">*</span></label>
+              <textarea id="message" name="message" rows="6" cols="50"></textarea>
+            </li>
+            <li class="buttons">
+              <input type="image" name="imageField" id="imageField" src="images/send.gif" />
+            </li>
+          </ol>
+        </form>
+      </div>
+      <div class="left">
+        <h2>Contact Details<br />
+        </h2>
+        <img src="images/map.jpg" alt="picture" width="280" height="161" class="clear" />
+        <div class="clr"></div>
+        <p><strong>Nunc vel imperdiet tellus. Mauris ornare aliquam urna, accumsan bibendum eros auctor ac.</strong></p>
+        <p>Suspendisse adipiscing rhoncus massa, sit amet sollicitudin quam vulputate non. In non turpis nisl. </p>
+        <div class="bg"></div>
+      </div>
+      <div style="padding:0 0 30px 0;" class="clr"></div>
+      <div class="left2">
+        <p><span><strong>Address:</strong></span> 1458 Sample Road, Greenvalley, 12<br />
+          <span> <strong>Telephone:</strong></span> +123-1234-5678<br />
+          <span> <strong>FAX:</strong></span> +458-4578<br />
+          <span><strong>Others</strong>:</span> +301 - 0125 - 01258<br />
+          <span> <strong>E-mail</strong>:</span> mail@yoursitename.com</p>
+      </div>
+      <div class="left2">
+        <p><strong><span>Customer Support</span></strong><br />
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed ut felis orci, ac semper justo.</p>
+        <p>111-222-4444<br />
+          <strong>support@example.com</strong><br />
+          Monday-Friday 8am-8pm</p>
+      </div>
+      <div class="left2">
+        <p><strong><span>Sales Enquiry</span></strong><br />
+          Lorem ipsum dolor sit amet, consectetuer ipiscing <br />
+          elit.</p>
+        <p>111-222-3333<br />
+          <strong>sales@example.com</strong><br />
+          Monday-Friday 8am-5pm</p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer_resize">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="services.html">services</a></li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li><a href="services.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="portfolio.html">rss feed</a></li>
+    </ul>
+    <p>Copyright © Sitename.com. <a href="http://dreamtemplate.com/">dreamtemplate.com</a>. All Rights Reserved</p>
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html>

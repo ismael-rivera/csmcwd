@@ -1,0 +1,1180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy CSV Importer 6.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-16 15:36-0000\n"
+"PO-Revision-Date: 2011-03-16 15:36-0000\n"
+"Last-Translator: Ryan Bayne <ryan@webtechglobal.co.uk>\n"
+"Language-Team: WTG <w>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\AppServ\\www\\wordpress-testing\\eci\\wp-content\\plugins\\easy-csv-importer-2\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: eci_configs.php:16
+msgid "Current Project Changed"
+msgstr ""
+
+#: eci_configs.php:23
+#: eci_overview.php:68
+msgid "No Current Project"
+msgstr ""
+
+#: eci_configs.php:23
+msgid ""
+"You will see errors on this screen after installing the plugin or deleting the \"Current Project\". \n"
+"\t\t\tThe errors are simply because there is no project data created. Please create a project or make an existing project your\n"
+"\t\t\tCurrent Project."
+msgstr ""
+
+#: eci_configs.php:45
+msgid "Project Paused"
+msgstr ""
+
+#: eci_configs.php:45
+msgid "Your project will not automatically import data, create posts or update existing posts."
+msgstr ""
+
+#: eci_configs.php:49
+msgid "Failed To Pause"
+msgstr ""
+
+#: eci_configs.php:49
+msgid "Wordpress could not update the options table and pause your project. Please try again then seek support."
+msgstr ""
+
+#: eci_configs.php:61
+msgid "Project Activating: Data Import"
+msgstr ""
+
+#: eci_configs.php:61
+msgid "The plugin will begin importing data according to your Speed Profile."
+msgstr ""
+
+#: eci_configs.php:67
+msgid "Project Activating: Post Creation"
+msgstr ""
+
+#: eci_configs.php:67
+msgid "The plugin created a post, more posts will be created according to your Speed Profile."
+msgstr ""
+
+#: eci_configs.php:77
+msgid "Project Now Active"
+msgstr ""
+
+#: eci_configs.php:77
+msgid "The schedule will now run events automatically."
+msgstr ""
+
+#: eci_configs.php:81
+msgid "Failed To Start"
+msgstr ""
+
+#: eci_configs.php:81
+msgid "Wordpress could not update the options table and start your project. Please try again then seek support."
+msgstr ""
+
+#: eci_configs.php:245
+msgid "About First Data Import"
+msgstr ""
+
+#: eci_configs.php:255
+msgid "About Data Functions"
+msgstr ""
+
+#: eci_configs.php:276
+msgid "About Custom Fields"
+msgstr ""
+
+#: eci_configs.php:286
+msgid "About Categories"
+msgstr ""
+
+#: eci_configs.php:296
+msgid "About Conditions"
+msgstr ""
+
+#: eci_configs.php:318
+msgid "About Updating"
+msgstr ""
+
+#: eci_designs.php:103
+msgid "About WYSIWYG Designs"
+msgstr ""
+
+#: eci_designs.php:132
+msgid "About The Shortcode Design"
+msgstr ""
+
+#: eci_designs.php:161
+msgid "About Tokens"
+msgstr ""
+
+#: eci_designs.php:172
+#: eci_overview.php:384
+msgid "About Shortcodes"
+msgstr ""
+
+#: eci_designs.php:269
+msgid "About HTML Snippets"
+msgstr ""
+
+#: eci_log.php:12
+msgid "Log File Activated"
+msgstr ""
+
+#: eci_log.php:12
+msgid "The plugin will make entries to the log file for all major procedures."
+msgstr ""
+
+#: eci_log.php:19
+msgid "Log File Disabled"
+msgstr ""
+
+#: eci_log.php:19
+msgid "The plugin no longer add new entries to the log file."
+msgstr ""
+
+#: eci_log.php:27
+msgid "Log File Deleted"
+msgstr ""
+
+#: eci_log.php:27
+msgid "The log file will be created again automatically unless logging has been turned off."
+msgstr ""
+
+#: eci_log.php:31
+msgid "Failed To Delete Log File"
+msgstr ""
+
+#: eci_log.php:31
+msgid ""
+"The log file could not be deleted, it could\n"
+"\t\t\t\tpossibly be in use. Please try again then seek support after confirming\n"
+"\t\t\t\tthe file is actually on your server inside this plugins folder."
+msgstr ""
+
+#: eci_log.php:78
+msgid "Log File Not Created"
+msgstr ""
+
+#: eci_log.php:78
+msgid "No log file exists because it has either been deleted or no log entries have been made yet."
+msgstr ""
+
+#: eci_overview.php:51
+msgid "Seperator &amp; Quote Saved"
+msgstr ""
+
+#: eci_overview.php:51
+msgid "Your project will now use the new values, please ensure they are correct by reviewing the tokens list on this screen. If each of your column titles are no on a new line it may indicate incorrect seperator being used."
+msgstr ""
+
+#: eci_overview.php:55
+msgid "Seperator &amp; Quote Failed To Save"
+msgstr ""
+
+#: eci_overview.php:55
+msgid "Wordpress coule not save the change to the options table at this time, please try again then seek support if the problem continues."
+msgstr ""
+
+#: eci_overview.php:68
+msgid ""
+"The plugin does not have a currently ongoing project. You must start a project on the Data Source page\n"
+"\tfor anything to show on this page. Not having a current project yet may also trigger some interface related errors, please ignore them \n"
+"\tat this time."
+msgstr ""
+
+#: eci_settings.php:12
+msgid "Plugin Data Arrays Un-Installed"
+msgstr ""
+
+#: eci_settings.php:12
+msgid ""
+"The plugin deleted its arrays of data from the Wordpress\n"
+"\t\t\toptions table. To finish the removal of the plugin, please delete it on the Wordpress plugin screen."
+msgstr ""
+
+#: eci_settings.php:21
+msgid "Plugin Data Arrays Re-Installed"
+msgstr ""
+
+#: eci_settings.php:21
+msgid ""
+"Your next step should be configuring the plugins settings\n"
+"\t\t\tand the interface to your requirements. Then go to the Project Start page to create a project\n"
+"\t\t\tas any previous project data will now be deleted."
+msgstr ""
+
+#: eci_settings.php:36
+msgid "Post Settings Saved"
+msgstr ""
+
+#: eci_settings.php:36
+msgid "Posts or pages you create from here on will be effected by the new settings."
+msgstr ""
+
+#: eci_settings.php:40
+#: eci_settings.php:57
+#: eci_settings.php:94
+#: eci_settings.php:115
+#: functions/eci_f_process.php:240
+#: functions/eci_f_process.php:426
+#: functions/eci_f_process.php:580
+#: functions/eci_f_process.php:608
+#: functions/eci_f_process.php:743
+#: functions/eci_f_process.php:751
+#: functions/eci_f_process.php:811
+#: functions/eci_f_process.php:865
+msgid "No Changes Saved"
+msgstr ""
+
+#: eci_settings.php:40
+msgid "You made no changes to your post/page settings."
+msgstr ""
+
+#: eci_settings.php:53
+msgid "Encoding Saved"
+msgstr ""
+
+#: eci_settings.php:53
+msgid "Your encoding settings have been saved, it is recommended that you test them before building your blog."
+msgstr ""
+
+#: eci_settings.php:57
+msgid "No settings were changed so Wordpress did not attempt to make a save."
+msgstr ""
+
+#: eci_settings.php:69
+msgid "Testing Settings Saved"
+msgstr ""
+
+#: eci_settings.php:69
+msgid "You have made changes to testing settings."
+msgstr ""
+
+#: eci_settings.php:73
+#: functions/eci_f_admin.php:379
+#: functions/eci_f_admin.php:391
+#: functions/eci_f_process.php:19
+#: functions/eci_f_process.php:45
+#: functions/eci_f_process.php:459
+#: functions/eci_f_process.php:1082
+msgid "No Changes Made"
+msgstr ""
+
+#: eci_settings.php:73
+msgid "No settings were changed so no save was required."
+msgstr ""
+
+#: eci_settings.php:90
+msgid "Advanced Settings Saved"
+msgstr ""
+
+#: eci_settings.php:90
+msgid "You have made changes to advanced settings."
+msgstr ""
+
+#: eci_settings.php:94
+msgid "No settings were changed."
+msgstr ""
+
+#: eci_settings.php:111
+msgid "Interface Settings Saved"
+msgstr ""
+
+#: eci_settings.php:111
+msgid "The changes you made to your interface settings will cause parts of the interface to be hidden or become visible."
+msgstr ""
+
+#: eci_settings.php:115
+msgid "You made no changes to your interface settings."
+msgstr ""
+
+#: eci_settings.php:131
+msgid "Random Date Settings Saved"
+msgstr ""
+
+#: eci_settings.php:131
+#: eci_settings.php:150
+msgid "Your settings have been updated."
+msgstr ""
+
+#: eci_settings.php:135
+msgid "Random Date Settings Failed"
+msgstr ""
+
+#: eci_settings.php:135
+#: eci_settings.php:154
+msgid "Your submitted settings did not save."
+msgstr ""
+
+#: eci_settings.php:150
+msgid "Incremental Date Settings Saved"
+msgstr ""
+
+#: eci_settings.php:154
+msgid "Incremental Date Settings Failed"
+msgstr ""
+
+#: eci_settings.php:253
+msgid "About Random Publish Dates"
+msgstr ""
+
+#: eci_settings.php:284
+msgid "About Incremental Publish Dates"
+msgstr ""
+
+#: eci_testpage.php:20
+msgid "Please Complete Form"
+msgstr ""
+
+#: eci_testpage.php:20
+msgid "It appears you missed something, please try again then seek support."
+msgstr ""
+
+#: eci_testpage.php:39
+msgid "First test message for Easy CSV Importer translation"
+msgstr ""
+
+#: eci_testpage.php:41
+msgid "We need translators to check various languages and help to increase quality for users local to you"
+msgstr ""
+
+#: functions/eci_f_admin.php:41
+#: functions/eci_f_admin.php:137
+#: functions/eci_f_admin.php:138
+#: functions/eci_f_admin.php:156
+msgid "Upload Failed"
+msgstr ""
+
+#: functions/eci_f_admin.php:42
+msgid "CSV File Upload Failed"
+msgstr ""
+
+#: functions/eci_f_admin.php:42
+#: functions/eci_f_admin.php:157
+msgid "CSV file upload could not be started at all as the file loader returned error, please try again."
+msgstr ""
+
+#: functions/eci_f_admin.php:52
+msgid "Uploaded File Does Not Match Any Project"
+msgstr ""
+
+#: functions/eci_f_admin.php:61
+msgid "File Matches Current Project"
+msgstr ""
+
+#: functions/eci_f_admin.php:61
+msgid "The plugin confirmed that the csv file being uploaded is for the project you are current working on, the old file has been overwritten."
+msgstr ""
+
+#: functions/eci_f_admin.php:65
+msgid "File Matches Another Project"
+msgstr ""
+
+#: functions/eci_f_admin.php:65
+msgid ""
+"The plugin will continue to upload your csv file\n"
+"\t\t\t\t\t\tand any matching file will be overwritten however the file you are uploading is not for\n"
+"\t\t\t\t\t\tthe current active project. This does not mean that your current project will use the data\n"
+"\t\t\t\t\t\tfrom the file you have uploaded. This message is just to confirm that you have not uploaded\n"
+"\t\t\t\t\t\ta new csv file for the project you are currently working on. Your active project has not been\n"
+"\t\t\t\t\t\tchanged in any way."
+msgstr ""
+
+#: functions/eci_f_admin.php:90
+#: functions/eci_f_admin.php:231
+msgid "Existing File Deleted"
+msgstr ""
+
+#: functions/eci_f_admin.php:90
+msgid "The old csv file for the one you have uploaded was deleted."
+msgstr ""
+
+#: functions/eci_f_admin.php:109
+msgid "Upload Success"
+msgstr ""
+
+#: functions/eci_f_admin.php:114
+msgid "Uploaded File Is Newer Than Previous File"
+msgstr ""
+
+#: functions/eci_f_admin.php:114
+msgid ""
+"New file has been \n"
+"\t\t\t\t\t\t\t\t\tuploaded. Please ensure your Updating settings are complete."
+msgstr ""
+
+#: functions/eci_f_admin.php:120
+msgid "Uploaded File Is Older Than Previous File"
+msgstr ""
+
+#: functions/eci_f_admin.php:120
+msgid ""
+"It appears that\n"
+"\t\t\t\t\t\t\t\t\tthe file you uploaded is an older copy.\n"
+"\t\t\t\t\t\t\t\t\tThis is confirmed so that you can ensure that you have not\n"
+"\t\t\t\t\t\t\t\t\tuploaded the wrong file and may be updating newer data with\n"
+"\t\t\t\t\t\t\t\t\told data."
+msgstr ""
+
+#: functions/eci_f_admin.php:129
+msgid "Uploaded File Does Not Appear To Be Different"
+msgstr ""
+
+#: functions/eci_f_admin.php:129
+msgid ""
+"The plugin\n"
+"\t\t\t\t\t\t\t\t\tchecked the date of your existing csv file and the one you\n"
+"\t\t\t\t\t\t\t\t\tuploaded. Both modification dates match and so it appears\n"
+"\t\t\t\t\t\t\t\t\tthat the csv file you just uploaded may not have new data."
+msgstr ""
+
+#: functions/eci_f_admin.php:137
+msgid "A CSV file upload attempt failed"
+msgstr ""
+
+#: functions/eci_f_admin.php:138
+msgid "The plugin failed to move your new file into the correct directory. Please try again then seek support."
+msgstr ""
+
+#: functions/eci_f_admin.php:156
+msgid "A new file upload attempt failed to start"
+msgstr ""
+
+#: functions/eci_f_admin.php:157
+msgid "Upload Failed To Start"
+msgstr ""
+
+#: functions/eci_f_admin.php:204
+msgid "Failed To Open Path/Directory"
+msgstr ""
+
+#: functions/eci_f_admin.php:231
+msgid ""
+"A matching csv filename was found in the\n"
+"\t\t\t\t\t\t\tsame directory you are uploaded too. It has been deleted as part of\n"
+"\t\t\t\t\t\t\tthe upload process."
+msgstr ""
+
+#: functions/eci_f_admin.php:246
+msgid "File Name Exists Already"
+msgstr ""
+
+#: functions/eci_f_admin.php:246
+msgid ""
+"You already have a CSV file with the same name\n"
+"\t\t\t\t\t\tin the selected directory. The plugin could not delete it. You will need to\n"
+"\t\t\t\t\t\tdelete it manually then try again."
+msgstr ""
+
+#: functions/eci_f_admin.php:258
+msgid "File Failed To Upload"
+msgstr ""
+
+#: functions/eci_f_admin.php:270
+msgid "CSV Upload Success"
+msgstr ""
+
+#: functions/eci_f_admin.php:277
+msgid "Possible Upload Error"
+msgstr ""
+
+#: functions/eci_f_admin.php:277
+msgid ""
+"The plugin detected that the upload\n"
+"\t\t\t\t\t\t\t\twas a success but on double checking that the uploaded file is \n"
+"\t\t\t\t\t\t\t\tnow in place, the plugin could not locate your file. Please\n"
+"\t\t\t\t\t\t\t\tinvestigate and report this if the problem persists."
+msgstr ""
+
+#: functions/eci_f_admin.php:379
+msgid "The project you attempted to activate as the Current Project is already set as the Current Project, no changes were made."
+msgstr ""
+
+#: functions/eci_f_admin.php:387
+msgid "The \"current project\" is the one made available for working with right now."
+msgstr ""
+
+#: functions/eci_f_admin.php:391
+msgid "Wordpress failed to update your project option array. No changes have been made to youplease try again."
+msgstr ""
+
+#: functions/eci_f_data.php:103
+msgid "SQL Update Error"
+msgstr ""
+
+#: functions/eci_f_data.php:142
+msgid "SQL Insert Error"
+msgstr ""
+
+#: functions/eci_f_data.php:274
+msgid "Select Attempt Failed"
+msgstr ""
+
+#: functions/eci_f_data.php:362
+msgid "Updating Failure"
+msgstr ""
+
+#: functions/eci_f_data.php:415
+#: functions/eci_f_data.php:494
+msgid "Table Deleted"
+msgstr ""
+
+#: functions/eci_f_data.php:448
+msgid "Created Table"
+msgstr ""
+
+#: functions/eci_f_data.php:472
+msgid "Existing Table Encountered"
+msgstr ""
+
+#: functions/eci_f_data.php:530
+msgid "Table Failed"
+msgstr ""
+
+#: functions/eci_f_data.php:535
+msgid "Table Created"
+msgstr ""
+
+#: functions/eci_f_data.php:610
+msgid "Multiple Events Required"
+msgstr ""
+
+#: functions/eci_f_data.php:660
+msgid "Delete Event Finished"
+msgstr ""
+
+#: functions/eci_f_data.php:660
+msgid ""
+"No posts deleted. The plugin did not find any records in your project database table\n"
+"\t\t\t\twith a post id assigned to them. This indicates none of the records have been used to create posts."
+msgstr ""
+
+#: functions/eci_f_global.php:75
+msgid "Update Post Meta"
+msgstr ""
+
+#: functions/eci_f_global.php:108
+msgid "File Delete Failure"
+msgstr ""
+
+#: functions/eci_f_global.php:115
+msgid "File Rename Failure"
+msgstr ""
+
+#: functions/eci_f_global.php:366
+#: functions/eci_f_global.php:371
+#: functions/eci_f_global.php:525
+msgid "Create Posts"
+msgstr ""
+
+#: functions/eci_f_global.php:367
+#: functions/eci_f_global.php:953
+msgid "No Records Available"
+msgstr ""
+
+#: functions/eci_f_global.php:367
+msgid "Either your project table does not have any imported data or all records have already been used."
+msgstr ""
+
+#: functions/eci_f_global.php:404
+msgid "Create Post Fail"
+msgstr ""
+
+#: functions/eci_f_global.php:413
+msgid "Created Post"
+msgstr ""
+
+#: functions/eci_f_global.php:807
+#: functions/eci_f_global.php:808
+msgid "Post Updated"
+msgstr ""
+
+#: functions/eci_f_global.php:813
+msgid "Post Updating"
+msgstr ""
+
+#: functions/eci_f_global.php:866
+msgid "Post creation event attempted but no records available to create posts with"
+msgstr ""
+
+#: functions/eci_f_global.php:882
+msgid "Log Reset"
+msgstr ""
+
+#: functions/eci_f_global.php:882
+msgid "Your log file was reset"
+msgstr ""
+
+#: functions/eci_f_global.php:953
+msgid "No categories were created because your project database table has no records."
+msgstr ""
+
+#: functions/eci_f_global.php:964
+msgid "Category Creation Running"
+msgstr ""
+
+#: functions/eci_f_global.php:964
+msgid "The size of your data will determine how long this takes."
+msgstr ""
+
+#: functions/eci_f_global.php:998
+msgid "Category Creation Complete"
+msgstr ""
+
+#: functions/eci_f_global.php:998
+msgid "The plugin is finished processing categories."
+msgstr ""
+
+#: functions/eci_f_global.php:1532
+msgid "Create Post Duplicate Check"
+msgstr ""
+
+#: functions/eci_f_interface.php:49
+msgid "<strong>No Projects Found, Please Create A Project On Start Page</strong><br />"
+msgstr ""
+
+#: functions/eci_f_interface.php:74
+msgid "No Speed Profiles Found"
+msgstr ""
+
+#: functions/eci_f_interface.php:90
+msgid "Possible Twitter Plugin Active"
+msgstr ""
+
+#: functions/eci_f_interface.php:90
+msgid ""
+"Easy CSV Importer has detected that you may be using a Twitter plugin. It is recommended that you disable all \n"
+"\t\t\t\t\t\tplugins that reacte to post or update events in your blog, unless the rate of those events will generate an acceptable level of tweets."
+msgstr ""
+
+#: functions/eci_f_interface.php:97
+msgid "Possible Sitemap Plugin In Use"
+msgstr ""
+
+#: functions/eci_f_interface.php:97
+msgid ""
+"Easy CSV Importer has detected that you may be using a Sitemap plugin. Please ensure it does not automatically\n"
+"\t\t\t\t\t\trebuild the sitemap everytime a post is created or updated unless the rate of events is acceptable."
+msgstr ""
+
+#: functions/eci_f_interface.php:464
+msgid "Unexpected state in new project file list"
+msgstr ""
+
+#: functions/eci_f_interface.php:683
+msgid ""
+"CSV file paths data does not appear to be installed, if you upload now\n"
+"\t\tyour CSV file will be placed in the default directory. The plugin will also\n"
+"\t\tattempt to install the path data."
+msgstr ""
+
+#: functions/eci_f_interface.php:719
+msgid "No event speed profiles were found. They should have been installed when activating the plugin."
+msgstr ""
+
+#: functions/eci_f_process.php:15
+#: functions/eci_f_process.php:41
+msgid "Widget One Changes Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:15
+#: functions/eci_f_process.php:41
+msgid "Your changes will take effect straight away, please test your widget in your browser before finishing."
+msgstr ""
+
+#: functions/eci_f_process.php:19
+#: functions/eci_f_process.php:45
+msgid "It appears no changes were made, nothing has been changed for your widget."
+msgstr ""
+
+#: functions/eci_f_process.php:61
+msgid "File/Project Name Already In Use"
+msgstr ""
+
+#: functions/eci_f_process.php:61
+msgid ""
+"The submitted csv file name is already in use. To prevent\n"
+"\t\tconfusion this is not permitted. Please either delete the existing project or change the \n"
+"\t\tname of your csv file."
+msgstr ""
+
+#: functions/eci_f_process.php:156
+msgid "Success - Project Created"
+msgstr ""
+
+#: functions/eci_f_process.php:156
+msgid ""
+"The plugin has established the format of your \n"
+"\t\t\tcsv file and it is ready to use. Continue through pages 2 to 5 completing each form\n"
+"\t\t\trequired in your project. Ensure your Design/s are ready, make changes to the project\n"
+"\t\t\tSpeed Profile you plan to use if required and complete at least parts 1 and 7 on the \n"
+"\t\t\tProject Configuration page before creating posts."
+msgstr ""
+
+#: functions/eci_f_process.php:164
+msgid "Failed - CSV File Problem"
+msgstr ""
+
+#: functions/eci_f_process.php:164
+msgid ""
+"The plugin has tried to establish your csv files\n"
+"\t\t\tprofile but there has been a problem. Please view the Project Profile page to see\n"
+"\t\t\twhere the issue is. Visit the WebTechGlobal forum for support if you are unsure."
+msgstr ""
+
+#: functions/eci_f_process.php:201
+msgid "Your HTML Snippet"
+msgstr ""
+
+#: functions/eci_f_process.php:246
+msgid "Unique Key Not Setup"
+msgstr ""
+
+#: functions/eci_f_process.php:246
+msgid "You saved Not Applicable for all 3 Unique Key choices, no updating can be performed for this project."
+msgstr ""
+
+#: functions/eci_f_process.php:253
+msgid "Unique Key Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:253
+msgid ""
+"Columns you selected to build your Unique Key have been saved. The plugin will now test the Unique Key however\n"
+"\t\t\t\t\tthe results are a guide for you to decide if updating in your project is ready."
+msgstr ""
+
+#: functions/eci_f_process.php:263
+msgid "Unique Key Test Cannot Be Performed"
+msgstr ""
+
+#: functions/eci_f_process.php:263
+msgid ""
+"Your project database table requires 10 or more records\n"
+"\t\t\t\t\t\tto perform sufficient tests. The test is not required and 100 records are recommended."
+msgstr ""
+
+#: functions/eci_f_process.php:351
+msgid "Unique Key Test Results: Not Unique"
+msgstr ""
+
+#: functions/eci_f_process.php:358
+msgid "Unique Key Test Results: Key Is Unique"
+msgstr ""
+
+#: functions/eci_f_process.php:374
+msgid "CSV File Deleted"
+msgstr ""
+
+#: functions/eci_f_process.php:396
+msgid "Update Settings Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:396
+msgid ""
+"Changes have been saved, details for each option\n"
+"\t\t\t\tsaved will be shown below this message."
+msgstr ""
+
+#: functions/eci_f_process.php:401
+msgid "Update Posts Activated"
+msgstr ""
+
+#: functions/eci_f_process.php:401
+msgid ""
+"When the plugin has new data stored in your\n"
+"\t\t\t\t\tprojects table, it will update posts. The update happens only when posts \n"
+"\t\t\t\t\tare opened for viewing."
+msgstr ""
+
+#: functions/eci_f_process.php:407
+msgid "Update Posts Deactivated"
+msgstr ""
+
+#: functions/eci_f_process.php:407
+msgid ""
+"Even when new data is available in your project \n"
+"\t\t\t\t\ttable, the plugin will not update this projects posts."
+msgstr ""
+
+#: functions/eci_f_process.php:413
+msgid "Automatically Process New File Activated"
+msgstr ""
+
+#: functions/eci_f_process.php:413
+msgid ""
+"This will cause the plugin to check your\n"
+"\t\t\t\t\tprojects csv file for any changes. If the files modification date is newer than the\n"
+"\t\t\t\t\tdata stored, the plugin will begin updating the project table with the csv files\n"
+"\t\t\t\t\tdata. This will happen based on your speed profile and delay setting."
+msgstr ""
+
+#: functions/eci_f_process.php:420
+msgid "Automatically Process New File Deactivated"
+msgstr ""
+
+#: functions/eci_f_process.php:420
+msgid ""
+"The plugin will not check for new new\n"
+"\t\t\t\t\tcsv files on this project or import the new data to apply updates."
+msgstr ""
+
+#: functions/eci_f_process.php:455
+msgid "Value Swap Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:459
+msgid "You may have tried to save a Value Swap that has already been setup."
+msgstr ""
+
+#: functions/eci_f_process.php:500
+msgid "Custom Fields Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:504
+msgid "No Custom Fields Changed"
+msgstr ""
+
+#: functions/eci_f_process.php:504
+msgid "Wordpress did not detect any changes made to your Custom Fields"
+msgstr ""
+
+#: functions/eci_f_process.php:544
+msgid "Failed - Configuration Not Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:544
+msgid "Please seek support"
+msgstr ""
+
+#: functions/eci_f_process.php:552
+msgid "Not Available"
+msgstr ""
+
+#: functions/eci_f_process.php:552
+msgid ""
+"This function is to be complete,\n"
+"\tif you would like it to be made available please send your\n"
+"\tinterest too webmaster@webtechglobal.co.uk"
+msgstr ""
+
+#: functions/eci_f_process.php:574
+msgid "Project Options Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:574
+msgid ""
+"You may change your options at anytime, even once\n"
+"\t\t\t\tposts have been created. However changes will only apply to existing posts\n"
+"\t\t\t\tafter update events are initiated."
+msgstr ""
+
+#: functions/eci_f_process.php:580
+msgid ""
+"Wordpress could not update the options table at this time.\n"
+"\t\t\t\tPlease try again and seek support if this happens again."
+msgstr ""
+
+#: functions/eci_f_process.php:604
+msgid "Category Designs Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:604
+msgid "The plugin will apply different WYSIWYG editor designs depending on a posts main/parent category based on the settings you have saved."
+msgstr ""
+
+#: functions/eci_f_process.php:608
+msgid "It appears that you have not made any changes to the form, no change was made to your options settings."
+msgstr ""
+
+#: functions/eci_f_process.php:641
+msgid "Design Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:641
+msgid ""
+"Your design has been saved. If you have already used your design to create posts and want the\n"
+"\t\t\t\tchanges you just made to reflect in existing posts, you will need to run updating even if you do not have\n"
+"\t\t\t\tany new data. If you require alternative designs similiar to the on you just saved, simply change the name of the\n"
+"\t\t\t\tdesign, make changes in the WYSIWYG editor then save. By changing the name it will save as a new design and not\n"
+"\t\t\t\toverwrite the previous."
+msgstr ""
+
+#: functions/eci_f_process.php:649
+msgid "Failed To Save"
+msgstr ""
+
+#: functions/eci_f_process.php:649
+msgid "This is an error that should be reported. Please seek support from WebTechGlobal."
+msgstr ""
+
+#: functions/eci_f_process.php:665
+msgid "Directory Already Exists"
+msgstr ""
+
+#: functions/eci_f_process.php:665
+msgid "The plugin does not need to create a new folder in your sites files as the directory already exists."
+msgstr ""
+
+#: functions/eci_f_process.php:673
+msgid "Admin"
+msgstr ""
+
+#: functions/eci_f_process.php:679
+msgid "Failed To Create Directory"
+msgstr ""
+
+#: functions/eci_f_process.php:679
+msgid ""
+"The plugin has confirmed that the submitted directory does not exist\n"
+"\t\t\t\t\thowever it could not create the directory. This could be a permissions issue. Please try again then\n"
+"\t\t\t\t\tseek support or consider creating the required folders manually."
+msgstr ""
+
+#: functions/eci_f_process.php:692
+msgid "Read Test Success"
+msgstr ""
+
+#: functions/eci_f_process.php:692
+msgid "The plugin can read the submitted directory."
+msgstr ""
+
+#: functions/eci_f_process.php:697
+msgid "Read Test Failed"
+msgstr ""
+
+#: functions/eci_f_process.php:697
+msgid ""
+"The plugin could not read the submitted directory, this may be a permissions\n"
+"\t\t\t\t\tissue. Please change the permission of the directory to a suitable chmod but please put your\n"
+"\t\t\t\t\tsecurity first and do not make changes without support when you are unsure."
+msgstr ""
+
+#: functions/eci_f_process.php:704
+msgid "Write Test Success"
+msgstr ""
+
+#: functions/eci_f_process.php:704
+msgid "The plugin can write too the submitted directory."
+msgstr ""
+
+#: functions/eci_f_process.php:709
+msgid "Write Test Failed"
+msgstr ""
+
+#: functions/eci_f_process.php:709
+msgid ""
+"The plugin could not write to the submitted directory, this may be a permissions\n"
+"\t\t\t\t\tissue. Please change the permission of the directory to a suitable chmod but please put your\n"
+"\t\t\t\t\tsecurity first and do not make changes without support when you are unsure."
+msgstr ""
+
+#: functions/eci_f_process.php:718
+msgid "Directory Not Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:718
+msgid ""
+"Due to problems accessing the directory, the plugin will not save the submitted path.\n"
+"\t\t\t\t\tThe issue must be resolved before the plugin attempts to load the directories file contents and display\n"
+"\t\t\t\t\tresults on the interface. You may have permissions problems which are easily resolved"
+msgstr ""
+
+#: functions/eci_f_process.php:743
+msgid ""
+"The plugin found an existing directory with the same name as \n"
+"\t\t\t\t\t\t\t\tyou have submitted. Please ensure your directory has not already been setup or change\n"
+"\t\t\t\t\t\t\t\tthe name for your new directory."
+msgstr ""
+
+#: functions/eci_f_process.php:751
+msgid ""
+"The path you submitted is a match to an existing path already\n"
+"\t\t\t\t\t\t\t\tsaved in the plugins settings. No changes have been made to file directories or\n"
+"\t\t\t\t\t\t\t\tto the plugins settings data."
+msgstr ""
+
+#: functions/eci_f_process.php:765
+msgid "Directory Saved And Ready"
+msgstr ""
+
+#: functions/eci_f_process.php:765
+msgid ""
+"All tests returned success, your path has been saved to the data source array\n"
+"\t\t\t\t\tand any csv files it contains will be displayed on the start page for creating new projects with."
+msgstr ""
+
+#: functions/eci_f_process.php:782
+msgid "Update Progress Counters Reset"
+msgstr ""
+
+#: functions/eci_f_process.php:782
+msgid ""
+"You may initiate updating manually or allow the\n"
+"\t\t\tplugin to proceed on automated settings working from the beginning of your csv file\n"
+"\t\t\tnow that you have reset progress counters."
+msgstr ""
+
+#: functions/eci_f_process.php:807
+msgid "Column Exclusions Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:807
+msgid "You can change these exclusions anytime."
+msgstr ""
+
+#: functions/eci_f_process.php:811
+msgid "Wordpress could not update the option table at this time, please try again."
+msgstr ""
+
+#: functions/eci_f_process.php:841
+msgid "Category Group Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:841
+msgid "Your category group has been saved. You can now move to the Conditions stage by pressing the button below."
+msgstr ""
+
+#: functions/eci_f_process.php:861
+msgid "Conditions Switches Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:861
+msgid "More condition options will now be available in the Conditions panel."
+msgstr ""
+
+#: functions/eci_f_process.php:865
+msgid "Wordpress made no changes to the Conditions Switches because none appeared to have been changed."
+msgstr ""
+
+#: functions/eci_f_process.php:901
+msgid "Single Category Disabled"
+msgstr ""
+
+#: functions/eci_f_process.php:901
+msgid ""
+"You selected Not Required and the plugin has\n"
+"\t\t\t\t\tsaved your change. Your project will not assign all new posts to a single\n"
+"\t\t\t\t\tcategory."
+msgstr ""
+
+#: functions/eci_f_process.php:907
+msgid "Single Category Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:907
+msgid "Your project will assign all new posts to the selected category."
+msgstr ""
+
+#: functions/eci_f_process.php:912
+msgid "No Change Required"
+msgstr ""
+
+#: functions/eci_f_process.php:912
+msgid "You did not appear to make any changes, you must have selected the value already saved."
+msgstr ""
+
+#: functions/eci_f_process.php:929
+msgid "Failed To Retrieve Test Data"
+msgstr ""
+
+#: functions/eci_f_process.php:929
+msgid "The plugin needs a single record to be imported to the project database table. The records data is tested with various parts of your configuration including Special Functions. Please go to First Data Import stage and initiate a data import."
+msgstr ""
+
+#: functions/eci_f_process.php:1003
+msgid "Date Format Problem"
+msgstr ""
+
+#: functions/eci_f_process.php:1010
+msgid "Date Example & Formatting Test"
+msgstr ""
+
+#: functions/eci_f_process.php:1076
+msgid "Special Functions Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:1076
+msgid ""
+"Your changes for Special Functions \n"
+"\t\t\tsetup has been saved. If you used any of the functions available you\n"
+"\t\t\tshould see samples for your selections below."
+msgstr ""
+
+#: functions/eci_f_process.php:1082
+msgid ""
+"Your configuration for the Special Functions\n"
+"\t\t\t\t\tform did not save. This is usually because no changes were made to the\n"
+"\t\t\t\t\tform."
+msgstr ""
+
+#: functions/eci_f_process.php:1098
+msgid "Could Not Delete"
+msgstr ""
+
+#: functions/eci_f_process.php:1123
+msgid ""
+"You can undo this action but you can create the \n"
+"\t\t\t\tproject again. If any posts were created in the project, a project with the same\n"
+"\t\t\t\tproject name will adopt the existing posts or pages."
+msgstr ""
+
+#: functions/eci_f_process.php:1154
+msgid "Full Speed Import Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:1160
+msgid "Manual Events Import Speed Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:1167
+msgid "Spreadout Data Import Speed Saved"
+msgstr ""
+
+#: functions/eci_f_process.php:1167
+msgid ""
+"To be complete, show the next 10 scheduled\n"
+"\t\t\t\tevents according to set delay, indicate number of records to import on that \n"
+"\t\t\t\tdelay"
+msgstr ""
+
+#: functions/eci_f_process.php:1194
+msgid "Not Deleted"
+msgstr ""
+
+#: functions/eci_f_process.php:1194
+msgid "You cannot delete the default speed profiles; Full Speed, Manual Events, Spreadout or Blog2Blog"
+msgstr ""
+
+#: functions/eci_f_process.php:1209
+msgid "Failed To Delete Speed Profile"
+msgstr ""
+
+#: functions/eci_f_process.php:1209
+msgid "Wordpress did not allow the Speed Profile data array to be updated. The submitted Speed Profile has not been deleted,please try again."
+msgstr ""
+
+#: functions/eci_f_process.php:1213
+msgid "The speed profile has been removed from the Speed Profile data array."
+msgstr ""
+
+#: functions/eci_f_widget.php:179
+msgid "Easy CSV Importer Widget has not been configured properly for use!"
+msgstr ""
+
+#: includes/eci_i_updating.php:6
+msgid ""
+"Your project does not have an Events Speed set. This is meant to be set on the\n"
+"\tCreate Project form and must mean that it failed to save or the speed setting was deleted.\n"
+"\tPlease report this problem and seek support so that it can be investigated."
+msgstr ""
+

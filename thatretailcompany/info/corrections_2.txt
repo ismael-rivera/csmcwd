@@ -1,0 +1,76 @@
+Hi Ismael,
+
+The site doesn't work properly in browsers other than Firefox. It needs to work in at least IE7+, Chrome, Safari and Opera. Also, there is still a lot of design and functionality that has been overlooked.
+
+Browser Testing General Feedback
+
+Internet Explorer:
+- The layout is broken in IE7 and IE8 and there are still lots of bugs in IE9. /// The layout was fixed since sending out the email. Please review.
+- The Navigation selected state should not go white when you hover over it. /// I did see this and have now fixed it.
+- In IE7 & 8 the rounded corners do not display. /// This is a CSS3 feature. Not all browsers are equipped to render these corners and doing this graphically would affect render ability on all other browsers. I will try to look for a hack for this but you should expect different browsers to address this feature depending on availability in their browser-engines.
+- In IE7 the content page layouts are broken /// All of this was fixed yesterday and looks fine from my end. Please send me a jpg, if this is still the case. 
+
+Chrome, Safari & Opera:
+- The content slider layout on the homepage is broken (arrows are at the bottom of the page) /// I did see this and have now fixed it.
+- The google font is rendering really poorly for some reason? When I tested this font in html/css cross browser before using it in the design, it looked much better. Is this a WordPress bug or is it the wrong font weight/size etc? /// All browsers render fonts differently. It also highly depends on the device and computer. What css specifications were you using when you did the test?
+
+
+Functionality Testing
+- The "Book Now" Buttons on the Services page need to link to the contact forms /// I did see this and have now fixed it.
+- The "States" on the contact form still need to be updated. It should default to NSW and also have ACT in the dropdown. /// fixed
+- Testimonials - These would be blank and ready for us to add the testimonials once the site goes live right? /// I did see this and have now fixed it.
+- The Need a Purchase Order Form "Download" Button should open the pdf purchase order form in a new tab (the last pdf that I emailed you). /// This was already fixed. Please look at the site as of recently as I am now aware that this revision was done much earlier before I had a chance to implement a lot of cross-browser changes.
+Design & Layout Testing (Note I have tested this in Firefox as the layout is broken in other browsers). /// Once again, most of this was corrected yesterday. All layouts should look fine now.
+
+Homepage (see attached jpg):
+The layout overall could still use some attention. Please see the attached JPG. It shows a screen grab from your testing site imposed over the top of the original design. It doesn't have to be 100% spot on but it should be a bit closer to the design so that it looks professional. 
+
+///Please Note: This is not photoshop, this is html. You should be expecting some margin of difference in things like font rendering, rounded corners, shadow rendering and size, not a lot but to expect an exact replica of what you see in photoshop is impossible, especially on all browsers. Again, this is not photoshop. I had to stretch some of the spaces in order for the text(which you wanted in html) to render properly.
+
+In particular:
+- The background of the header (black/grey vertical stripes) doesn't tile properly. It should be 2px width alternate vertical lines. If you make the width of the tiling image 4px or 8px (i.e. a multiple of 4) it should all line up properly.
+
+/// You're absolutely right. This has been fixed.
+
+- The logo should line up with the left side of the content area. /// Logo was already lined up with content area. Just as in photoshop. Please specify.
+
+- The phone number and 24/7 customer service text should line up to the right /// I did see this and have now fixed it.
+
+- The navigation is a lot bigger than in the psd. Please reduce the size to reflect the original design because more menu items may need to be added later and there isn't enough space with the larger tabs
+
+- The "Read More" and "Book Now" buttons in the content slider should only have 20px of padding above them. The frames currently have much more than this. The buttons should also be html text, not images.
+
+- Please review the layout of the three promo tiles at the bottom. The border is currently too thick and not even. The inner white border should be 4px. This also needs to be fixed on the promo tiles in the side bar of the inner pages.
+
+- Please double check what is happening with the fonts. The letter spacing of the 'arial' 12px font style isn't quite right either. Some letters seem to have too much space between them and this doesn't happen in html/css. Once again is this a WordPress bug or is it the wrong font weight/size etc?
+
+Inner pages (In general):
+- The layout of the content area should have 30px of padding around it. There is currently less space at the top and too much at the bottom.
+- The side bar should have 30px space at the top and bottom and 20px either side. This is so it lines up properly to the top of the content area and looks professional. It is currently off center.
+- The shadow that runs vertically to separate the content and side bar areas is missing the fade at the bottom.
+- In general the layout of content doesn't match the design. Please double check the padding against the oringianl design. This needs to be consistent to look professional.
+
+Services:
+- The bullet point "Dedicated experienced project managers" is broken over two lines. This should all be on one line.
+- The "Book Now" buttons should also be html text rather than an image.
+
+About:
+- Please check layout. Bullet points don't line up and the padding of the paragraph styles doesn't reflect the design.
+- Layout of testimonials promo tile should also match the psd. Please review the bullet point alignment and padding.
+
+Locations:
+- The map should NOT link. When you click it it breaks the page layout.
+- The words "contact form" in the intro text should link through to the contact page.
+
+Contact:
+- The form fields and submit button don't line up properly. Some of the forms line up better than others but they all need line up correctly for better usability.
+- Some of the forms have additional information in italics next the the message field. Please make this text is italic as per the psd. It is important for usability that people can differentiate between what fields need to filled out verses instructional text.
+
+Privacy Policy:
+- The page is still missing "This policy is powered by Free Privacy Policy" that links to http://www.freeprivacypolicy.com/
+
+
+Can you give us an indication of how long these fixes will take? If it is still going to be another couple of days or longer, it is really important that you flag that with us now. It is already 3 weeks over the deadline and we need to decide how to proceed.
+
+Thanks,
+Alex

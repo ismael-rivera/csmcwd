@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#sidebar{
+	border: 1px solid #dbdbdb;
+	background-image: url(../images/bg_pattern02.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-color: #fbfbfb;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	}
+
+#wp125, #wp125adwrap_2c div{
+	float:left;
+	}
+.xoxo ul {
+	width: 300px;
+	margin-bottom: 25px;
+}

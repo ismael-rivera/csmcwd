@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/*  
+The main use of Conditional-CSS is to be able to indicate if a particular CSS statement should be sent to a particular browser or not. Of course you won't wish to do this often, but it is exceptionally useful when you do need to target a browser. A very wide range of web browsers can be supported in this way, as can be seen by the list that we support at U4EA.
+
+Any CSS statement or block can be prefixed by a conditional statement, of which there are three basic types:
+
+ 
+	[if {!} browser]
+    [if {!} browser version]
+    [if {!} condition browser version]
+	
+	
+    ! - indicates negation of the statement (i.e. NOT) - optional
+	
+    browser - states which browser the statement targets
+	
+	   'IE' - Internet Explorer
+	   'Gecko' - Gecko based browsers (Firefox, Camino etc)
+	   'Webkit' - Webkit based browsers (Safari, Chrome, Shiira etc)
+	   'SafMob' - Mobile Safari (iPhone / iPod Touch)
+	   'Opera' - Opera's browser
+	   'IEMac' - Internet Explorer for the Mac
+	   'Konq' - Konqueror
+	   'IEmob' - IE mobile
+	   'PSP' - Playstation Portable
+	   'NetF' - Net Front
+   
+    version - which version of the browser in question should be considered
+    condition - arithmetic operator
+	
+        lt - Less than
+        lte - Less than or equal to
+        eq - Equal to
+        gte - Greater than or equal to
+        gt - Greater then
+
+ex. [if lte Gecko 4].cpa_ebook_buy-btn a{
+	right: -200px;
+	
+	}
+	
+*/
+
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Play-Bold'), url(http://themes.googleusercontent.com/static/fonts/play/v3/aBiGxW3iLixHo08CkkYT9gLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Play'), url(http://themes.googleusercontent.com/static/fonts/play/v3/IkErdnKw9ItVkLeeur9GHfesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+[if Webkit] #next, #prev{
+ top: -195px;	
+}
+
+[if Webkit] #prev{
+	left: 0px
+	}	
+	
+[if Webkit] #next{
+	right:2px;
+	}
+	
+[if Webkit] #top_menu{
+	top: 91px;
+	right: 0px;
+}	
+
+/*--------------------*/
+
+[if Opera] #next, #prev{
+ top: -195px;	
+}
+
+[if Opera] #prev{
+	left: 0px
+	}	
+	
+[if Opera] #next{
+	right:2px;
+	}
+	
+[if Opera] .win32 #top_menu{
+	top: 91px;
+	right: 0px;
+}
+
+/*---------------------*/
+
+
+[if Webkit] .promotiles{
+	
+	}
+[if Webkit] .grid_table .promotiles_inner{
+	min-width: 266px !important;
+	}
+	
+[if Webkit] .sidebar-right .promotiles, .grid_table .promotiles{
+	padding: 1px !important;
+	}		
+	
+[if Webkit] .grid_table .promotiles{
+	width: 200px !important;
+	}
+	
+[if Webkit] #nav{
+	width: 928px !important;
+	border-bottom: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	}
+	
+[if Webkit]	#nav li{
+	width: 12.36555%;
+	}
+	
+[if Webkit]	.win32 #nav li{
+	width: 114px !important;
+	}
+	
+[if Webkit]	.win32 .padtop{
+	border-top: 2px solid #fff;
+	}
+[if Webkit]	.win32 .activeSlide .padtop{
+	border-top: 2px solid #e6e6e6;
+	}		
+	
+[if Webkit]	#nav li a{
+	padding-top: 8px;
+	}	
+	
+[if Webkit] #slideshow{
+	width: 930px !important;
+	}
+[if Webkit] #slider{
+	width: 930px !important;
+	}
+[if Gecko] .panel-info{
+	letter-spacing: -0.4px;
+	}
+	
+[if Gecko] .win32 #top_menu{
+	top: 91px;
+	right: 0px;
+	z-index: 0;
+	/*border: 1px solid #c03;*/
+	}
+	
+.win32 .cs{
+	font: bold 14px Play, Geneva, sans-serif;
+	}
+
+.win32 #top_menu li{
+	font: bold 14px Play, Geneva, sans-serif;
+	}
+	
+.win32 #nav a{
+	font: bold 12px Play, Geneva, sans-serif;
+	}
+
+.win32 .promo_tile_button{
+	font: bold 12px Play, Geneva, sans-serif;
+	}
+
+.win32 .srvcs_post_btn{
+	font: bold 13px/28px Play, Geneva, sans-serif;
+	}
+.win32 h2{
+	font-smooth:auto;
+	font: bold 24px Play, Geneva, sans-serif;
+	}
+.win32 #accordion h3{
+	font-smooth:auto;
+	font: bold 24px/12px Play, Geneva, sans-serif;
+	}
+	
+.win32 h4{
+	font-smooth:auto;
+	font: bold 24px Play, Geneva, sans-serif;
+	}
+
+.ios #next, .ios #prev{	
+	top: -195px;
+	}
+.ios #top_menu{
+	top: 91px;
+	right: 0px;
+	}		
+	
+[if Gecko].win32 .srvcs_list li{
+	letter-spacing: 0px;		
+	}
+
+[if Opera] .srvcs_list li{
+	font: 12px/28px Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0px;
+	}					
